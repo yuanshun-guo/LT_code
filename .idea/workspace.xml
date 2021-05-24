@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/f_x/测试.py" afterDir="false" />
+    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21合并两个有序链表[].py" beforeDir="false" afterPath="$PROJECT_DIR$/21合并两个有序链表[].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/28实现 strStr().py" beforeDir="false" afterPath="$PROJECT_DIR$/28实现 strStr().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/.join().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/.join().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/10将一个数分解转换为各位数字列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/10将一个数分解转换为各位数字列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/15求一个字符串里某子字符（串）出现的次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/15求一个字符串里某子字符（串）出现的次数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/bin().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/bin().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/filter().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/filter().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/int().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/int().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/replace().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/replace().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/zip().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/zip().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/测试.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +61,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Python.草稿">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -249,6 +235,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <option name="LAST_COMMIT_MESSAGE" value="new" />
@@ -258,10 +255,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="73" width="814" height="726" key="#意向/0.0.1536.824@0.0.1536.824" timestamp="1621221995408" />
-    <state x="759" y="11" key="CommitChangelistDialog2" timestamp="1619539094485">
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2" timestamp="1621867083912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="759" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619539094485" />
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621867083912" />
+    <state x="294" y="69" key="DiffContextDialog" timestamp="1621867058149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="69" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1621867058149" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621837266152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,10 +299,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="832" height="250" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621227320136" />
-    <state x="442" y="58" key="SettingsEditor" timestamp="1621223155980">
+    <state x="613" y="64" key="SettingsEditor" timestamp="1621866918073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621223155980" />
+    <state x="613" y="64" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621866918073" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621864109761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
