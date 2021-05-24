@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/f_x/zip().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f_x/测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14最长公共前缀.py" beforeDir="false" afterPath="$PROJECT_DIR$/14最长公共前缀.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f(x)/enumrate().py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/12获取字符串元素及其位置enumerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/12获取列表中字符串元素及其位置enumerate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21合并两个有序链表[].py" beforeDir="false" afterPath="$PROJECT_DIR$/21合并两个有序链表[].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28实现 strStr().py" beforeDir="false" afterPath="$PROJECT_DIR$/28实现 strStr().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/.join().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/.join().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/10将一个数分解转换为各位数字列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/10将一个数分解转换为各位数字列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/15求一个字符串里某子字符（串）出现的次数.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/15求一个字符串里某子字符（串）出现的次数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/bin().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/bin().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/filter().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/filter().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/int().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/int().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/replace().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/replace().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/zip().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/zip().py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +47,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1rbieed98WywKqU8ZbpjXSd8OjW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,15 +68,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/研究生文件/组/all/柔性材料/data_processing_code" />
+    <property name="last_opened_file_path" value="G:/研究生文件/组/myself/ValveLeakage/ValveLeakage/inner_leakage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
-  <component name="RunManager" selected="Python.zip()">
+  <component name="RunManager" selected="Python.草稿">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11选择字符串中的两个字符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15求一个字符串里某子字符（串）出现的次数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +113,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/11选择字符串中的两个字符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/15求一个字符串里某子字符（串）出现的次数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13罗马数字转整数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="66加一" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +135,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13罗马数字转整数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/66加一.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14最长公共前缀" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="67二进制求和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +157,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14最长公共前缀.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/67二进制求和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zip()" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7一次性的整合多个列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +179,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/zip().py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.zip()" />
-        <item itemvalue="Python.14最长公共前缀" />
         <item itemvalue="Python.草稿" />
-        <item itemvalue="Python.11选择字符串中的两个字符" />
-        <item itemvalue="Python.13罗马数字转整数" />
+        <item itemvalue="Python.67二进制求和" />
+        <item itemvalue="Python.7一次性的整合多个列表" />
+        <item itemvalue="Python.15求一个字符串里某子字符（串）出现的次数" />
+        <item itemvalue="Python.66加一" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +221,20 @@
       <workItem from="1620230222781" duration="639000" />
       <workItem from="1620314434327" duration="4568000" />
       <workItem from="1620352713847" duration="145000" />
-      <workItem from="1620368282940" duration="7533000" />
+      <workItem from="1620368282940" duration="11628000" />
+      <workItem from="1620610001056" duration="6184000" />
+      <workItem from="1620624015806" duration="10710000" />
+      <workItem from="1620744287973" duration="3039000" />
+      <workItem from="1620822845285" duration="10817000" />
+      <workItem from="1621054876817" duration="8227000" />
+      <workItem from="1621129921895" duration="11334000" />
+      <workItem from="1621171180052" duration="13303000" />
+      <workItem from="1621265482847" duration="2086000" />
+      <workItem from="1621323985309" duration="1180000" />
+      <workItem from="1621383143428" duration="15448000" />
+      <workItem from="1621752595385" duration="9069000" />
+      <workItem from="1621833648163" duration="892000" />
+      <workItem from="1621864092445" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1619539097384</created>
@@ -223,44 +254,104 @@
     <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="682" y="73" width="814" height="726" key="#意向" timestamp="1621221995408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="682" y="73" width="814" height="726" key="#意向/0.0.1536.824@0.0.1536.824" timestamp="1621221995408" />
     <state x="759" y="11" key="CommitChangelistDialog2" timestamp="1619539094485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="759" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1619539094485" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620045174882">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621837266152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620045174882" />
-    <state width="1118" height="126" key="GridCell.Tab.0.bottom" timestamp="1620437792501">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621837266152" />
+    <state width="988" height="194" key="GridCell.Tab.0.bottom" timestamp="1621770911765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1118" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620437792501" />
-    <state width="1118" height="126" key="GridCell.Tab.0.center" timestamp="1620437792500">
+    <state width="988" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
+    <state width="988" height="194" key="GridCell.Tab.0.center" timestamp="1621770911765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1118" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620437792500" />
-    <state width="1118" height="126" key="GridCell.Tab.0.left" timestamp="1620437792500">
+    <state width="988" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
+    <state width="988" height="194" key="GridCell.Tab.0.left" timestamp="1621770911765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1118" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620437792500" />
-    <state width="1118" height="126" key="GridCell.Tab.0.right" timestamp="1620437792500">
+    <state width="988" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
+    <state width="988" height="194" key="GridCell.Tab.0.right" timestamp="1621770911765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1118" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620437792500" />
+    <state width="988" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
+    <state width="832" height="250" key="GridCell.Tab.1.bottom" timestamp="1621227320136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="832" height="250" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621227320136" />
+    <state width="832" height="250" key="GridCell.Tab.1.center" timestamp="1621227320136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="832" height="250" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621227320136" />
+    <state width="832" height="250" key="GridCell.Tab.1.left" timestamp="1621227320136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="832" height="250" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621227320136" />
+    <state width="832" height="250" key="GridCell.Tab.1.right" timestamp="1621227320136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="832" height="250" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621227320136" />
+    <state x="442" y="58" key="SettingsEditor" timestamp="1621223155980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621223155980" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621864109761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1621864109761" />
+    <state x="97" y="33" width="607" height="566" key="dock-window-1" timestamp="1621227164069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="97" y="33" width="607" height="566" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1621227164069" />
+    <state x="730" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1621761930529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="730" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621761930529" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="__package__" />
+        <watch expression="i" />
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$get__.coverage" NAME="get() Coverage Results" MODIFIED="1620111385166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$3.coverage" NAME="3列表对应元素相减 Coverage Results" MODIFIED="1620031463834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$21.coverage" NAME="21合并两个有序链表 Coverage Results" MODIFIED="1620616360688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$27.coverage" NAME="27移除元素 Coverage Results" MODIFIED="1620828933314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$28_strStr__.coverage" NAME="28实现 strStr() Coverage Results" MODIFIED="1620871922223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$53.coverage" NAME="53最大子序和 Coverage Results" MODIFIED="1621267547254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$337IV.coverage" NAME="337组合总和IV Coverage Results" MODIFIED="1619450196768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$1.coverage" NAME="1两数之和 Coverage Results" MODIFIED="1619626035747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$zip__.coverage" NAME="zip() Coverage Results" MODIFIED="1620437792490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$zip__.coverage" NAME="zip() Coverage Results" MODIFIED="1621221044133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$38.coverage" NAME="38外观数列 Coverage Results" MODIFIED="1621225069154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$15.coverage" NAME="15求一个字符串里某子字符（串）出现的次数 Coverage Results" MODIFIED="1621752615434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$10.coverage" NAME="10将一个数分解转换为各位数字列表 Coverage Results" MODIFIED="1621172990057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$enumrate__.coverage" NAME="enumrate() Coverage Results" MODIFIED="1620111453795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$16.coverage" NAME="16按输入的数存入列表中 Coverage Results" MODIFIED="1621414585614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$13.coverage" NAME="13罗马数字转整数 Coverage Results" MODIFIED="1620112152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$66.coverage" NAME="66加一 Coverage Results" MODIFIED="1621429968803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$get__.coverage" NAME="get() Coverage Results" MODIFIED="1620111385166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$3.coverage" NAME="3列表对应元素相减 Coverage Results" MODIFIED="1620031463834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$14keyvalue.coverage" NAME="14交换字典中的key和value Coverage Results" MODIFIED="1621222622419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$11.coverage" NAME="11选择字符串中的两个字符 Coverage Results" MODIFIED="1620112791896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$9.coverage" NAME="9回文数 Coverage Results" MODIFIED="1620059463450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$26.coverage" NAME="26删除有序数组中的重复项 Coverage Results" MODIFIED="1620827019000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$20.coverage" NAME="20有效的括号 Coverage Results" MODIFIED="1620523157701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$2.coverage" NAME="2创建文件夹 Coverage Results" MODIFIED="1620041557103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$enumrate__.coverage" NAME="enumrate() Coverage Results" MODIFIED="1620111453795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1620317838638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1621764247629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$14.coverage" NAME="14最长公共前缀 Coverage Results" MODIFIED="1620437728159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$7.coverage" NAME="7一次性的整合列表 Coverage Results" MODIFIED="1620043508083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$13.coverage" NAME="13罗马数字转整数 Coverage Results" MODIFIED="1620112152221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$7.coverage" NAME="7一次性的整合多个列表 Coverage Results" MODIFIED="1621752679999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$35.coverage" NAME="35搜索插入位置 Coverage Results" MODIFIED="1621063924748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$67.coverage" NAME="67二进制求和 Coverage Results" MODIFIED="1621764109892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$58.coverage" NAME="58最后一个单词的长度 Coverage Results" MODIFIED="1621422227760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
