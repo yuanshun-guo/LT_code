@@ -74,4 +74,11 @@
 #     return value
 # print(two_to_ten('1010000101'))
 #
-print(int("1010000101",2))
+# print('560\n61')
+iter()
+from itertools import product
+list1 = range(1,3)
+list2 = range(4,6)
+list3 = range(7,9)
+for item1,item2,item3 in product(list1, list2, list3):
+    print(item1,item2,item3)

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="0">
+    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/f_x/17判断是否包含子串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_x/测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/测试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/7一次性的整合多个列表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/测试.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/研究生文件/组/myself/ValveLeakage/ValveLeakage/inner_leakage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="66加一" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17判断是否包含子串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_x" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/66加一.py" />
+      <option name="SCRIPT_NAME" value="G:\COME\LT\code\f_x\17判断是否包含子串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.草稿" />
-        <item itemvalue="Python.67二进制求和" />
+        <item itemvalue="Python.17判断是否包含子串" />
         <item itemvalue="Python.7一次性的整合多个列表" />
+        <item itemvalue="Python.67二进制求和" />
         <item itemvalue="Python.15求一个字符串里某子字符（串）出现的次数" />
-        <item itemvalue="Python.66加一" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +224,12 @@
       <workItem from="1621752595385" duration="9069000" />
       <workItem from="1621833648163" duration="892000" />
       <workItem from="1621864092445" duration="72000" />
+      <workItem from="1621924505147" duration="35000" />
+      <workItem from="1621991113539" duration="1046000" />
+      <workItem from="1622355467149" duration="2407000" />
+      <workItem from="1622773253028" duration="1433000" />
+      <workItem from="1622893506403" duration="636000" />
+      <workItem from="1623325609020" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1619539097384</created>
@@ -229,7 +238,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619539097384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0">
+      <created>1621867101752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621867101752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0">
+      <created>1621867128590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621867128590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0">
+      <created>1621867226405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621867226405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +270,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -248,41 +280,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="73" width="814" height="726" key="#意向" timestamp="1621221995408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="73" width="814" height="726" key="#意向/0.0.1536.824@0.0.1536.824" timestamp="1621221995408" />
-    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2" timestamp="1621867127504">
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2" timestamp="1621867225255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621867127504" />
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621867225255" />
     <state x="294" y="69" key="DiffContextDialog" timestamp="1621867058149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="294" y="69" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1621867058149" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621837266152">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622962767180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621837266152" />
-    <state width="988" height="194" key="GridCell.Tab.0.bottom" timestamp="1621770911765">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622962767180" />
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom" timestamp="1622785108697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="988" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
-    <state width="988" height="194" key="GridCell.Tab.0.center" timestamp="1621770911765">
+    <state width="1495" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622785108697" />
+    <state width="1495" height="211" key="GridCell.Tab.0.center" timestamp="1622785108697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="988" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
-    <state width="988" height="194" key="GridCell.Tab.0.left" timestamp="1621770911765">
+    <state width="1495" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622785108697" />
+    <state width="1495" height="211" key="GridCell.Tab.0.left" timestamp="1622785108697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="988" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
-    <state width="988" height="194" key="GridCell.Tab.0.right" timestamp="1621770911765">
+    <state width="1495" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622785108697" />
+    <state width="1495" height="211" key="GridCell.Tab.0.right" timestamp="1622785108697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="988" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621770911765" />
+    <state width="1495" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622785108697" />
     <state width="832" height="250" key="GridCell.Tab.1.bottom" timestamp="1621227320136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -311,14 +344,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="613" y="64" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621866918073" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621867149901">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621867230045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621867149901" />
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621864109761">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621867230045" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623326175675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1621864109761" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1623326175675" />
     <state x="97" y="33" width="607" height="566" key="dock-window-1" timestamp="1621227164069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -360,9 +393,9 @@
     <SUITE FILE_PATH="coverage/code$26.coverage" NAME="26删除有序数组中的重复项 Coverage Results" MODIFIED="1620827019000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$20.coverage" NAME="20有效的括号 Coverage Results" MODIFIED="1620523157701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$2.coverage" NAME="2创建文件夹 Coverage Results" MODIFIED="1620041557103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1621764247629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1622777491703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$14.coverage" NAME="14最长公共前缀 Coverage Results" MODIFIED="1620437728159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$7.coverage" NAME="7一次性的整合多个列表 Coverage Results" MODIFIED="1621752679999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$7.coverage" NAME="7一次性的整合多个列表 Coverage Results" MODIFIED="1621991289341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$35.coverage" NAME="35搜索插入位置 Coverage Results" MODIFIED="1621063924748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$67.coverage" NAME="67二进制求和 Coverage Results" MODIFIED="1621764109892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$58.coverage" NAME="58最后一个单词的长度 Coverage Results" MODIFIED="1621422227760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
