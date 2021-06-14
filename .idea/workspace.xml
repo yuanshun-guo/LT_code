@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/88合并两个有序数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/f_x/17对数组进行排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100相同的数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/94二叉树的中序遍历.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
-  <component name="RunManager" selected="Python.88合并两个有序数组">
+  <component name="RunManager" selected="Python.94二叉树的中序遍历">
     <configuration name="枪车票" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,28 +107,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/17对数组进行排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,10 +159,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="94二叉树的中序遍历" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/94二叉树的中序遍历.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.94二叉树的中序遍历" />
         <item itemvalue="Python.88合并两个有序数组" />
-        <item itemvalue="Python.草稿" />
         <item itemvalue="Python.枪车票" />
         <item itemvalue="Python.17对数组进行排序" />
         <item itemvalue="Python.70爬楼梯" />
@@ -236,7 +257,8 @@
       <workItem from="1622893506403" duration="636000" />
       <workItem from="1623325609020" duration="1384000" />
       <workItem from="1623391504610" duration="3928000" />
-      <workItem from="1623400904131" duration="20432000" />
+      <workItem from="1623400904131" duration="21444000" />
+      <workItem from="1623637772948" duration="8779000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1619539097384</created>
@@ -280,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623407483315</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2021.6.12">
+      <created>1623505141021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623505141046</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,17 +333,18 @@
     <MESSAGE value="0" />
     <MESSAGE value="2021.6.10" />
     <MESSAGE value="2021.6.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.6.11" />
+    <MESSAGE value="2021.6.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.6.12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="682" y="73" width="814" height="726" key="#意向" timestamp="1621221995408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="682" y="73" width="814" height="726" key="#意向/0.0.1536.824@0.0.1536.824" timestamp="1621221995408" />
-    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2" timestamp="1623407481829">
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2" timestamp="1623505138938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1623407481829" />
+    <state x="745" y="11" width="791" height="553" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1623505138938" />
     <state x="294" y="69" key="DiffContextDialog" timestamp="1621867058149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -323,38 +353,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622962767180" />
-    <state width="1056" height="108" key="GridCell.Tab.0.bottom" timestamp="1623504349874">
+    <state width="900" height="126" key="GridCell.Tab.0.bottom" timestamp="1623645631748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1056" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623504349874" />
-    <state width="1056" height="108" key="GridCell.Tab.0.center" timestamp="1623504349874">
+    <state width="900" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623645631748" />
+    <state width="900" height="126" key="GridCell.Tab.0.center" timestamp="1623645631748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1056" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623504349874" />
-    <state width="1056" height="108" key="GridCell.Tab.0.left" timestamp="1623504349874">
+    <state width="900" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623645631748" />
+    <state width="900" height="126" key="GridCell.Tab.0.left" timestamp="1623645631746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1056" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623504349874" />
-    <state width="1056" height="108" key="GridCell.Tab.0.right" timestamp="1623504349874">
+    <state width="900" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623645631746" />
+    <state width="900" height="126" key="GridCell.Tab.0.right" timestamp="1623645631748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1056" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623504349874" />
-    <state width="899" height="218" key="GridCell.Tab.1.bottom" timestamp="1623405466949">
+    <state width="900" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623645631748" />
+    <state width="899" height="218" key="GridCell.Tab.1.bottom" timestamp="1623507540745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="899" height="218" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623405466949" />
-    <state width="899" height="218" key="GridCell.Tab.1.center" timestamp="1623405466949">
+    <state width="899" height="218" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623507540745" />
+    <state width="899" height="218" key="GridCell.Tab.1.center" timestamp="1623507540743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="899" height="218" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623405466949" />
-    <state width="899" height="218" key="GridCell.Tab.1.left" timestamp="1623405466949">
+    <state width="899" height="218" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623507540743" />
+    <state width="899" height="218" key="GridCell.Tab.1.left" timestamp="1623507540742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="899" height="218" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623405466949" />
-    <state width="899" height="218" key="GridCell.Tab.1.right" timestamp="1623405466949">
+    <state width="899" height="218" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623507540742" />
+    <state width="899" height="218" key="GridCell.Tab.1.right" timestamp="1623507540744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="899" height="218" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623405466949" />
+    <state width="899" height="218" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623507540744" />
     <state x="100" y="95" key="MergeDialog" timestamp="1621867196490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -367,14 +397,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="71" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623401265645" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623407497374">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623505147201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623407497374" />
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623505047093">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623505147201" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623658320173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1623505047092" />
+    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1623658320173" />
     <state x="97" y="33" width="607" height="566" key="dock-window-1" timestamp="1621227164069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -402,8 +432,9 @@
     <SUITE FILE_PATH="coverage/code$70.coverage" NAME="70爬楼梯 Coverage Results" MODIFIED="1623406054122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$1.coverage" NAME="1两数之和 Coverage Results" MODIFIED="1619626035747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$zip__.coverage" NAME="zip() Coverage Results" MODIFIED="1621221044133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
+    <SUITE FILE_PATH="coverage/code$94.coverage" NAME="94二叉树的中序遍历 Coverage Results" MODIFIED="1623645631729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$38.coverage" NAME="38外观数列 Coverage Results" MODIFIED="1621225069154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$88.coverage" NAME="88合并两个有序数组 Coverage Results" MODIFIED="1623504349864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$88.coverage" NAME="88合并两个有序数组 Coverage Results" MODIFIED="1623645308371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$15.coverage" NAME="15求一个字符串里某子字符（串）出现的次数 Coverage Results" MODIFIED="1621752615434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$10.coverage" NAME="10将一个数分解转换为各位数字列表 Coverage Results" MODIFIED="1621172990057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$enumrate__.coverage" NAME="enumrate() Coverage Results" MODIFIED="1620111453795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
