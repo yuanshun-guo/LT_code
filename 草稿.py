@@ -82,5 +82,6 @@
 # list3 = range(7,9)
 # for item1,item2,item3 in product(list1, list2, list3):
 #     print(item1,item2,item3)
-nums = [2,6,3,9,4]
-print(nums[-3:])
+# nums = [2,6,3,9,4]
+# print(nums[-3:])
+print(1 or 1)

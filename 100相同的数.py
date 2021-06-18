@@ -46,9 +46,9 @@ class Solution(object):
         :type q: TreeNode
         :rtype: bool
         """
-        if not p and not q:
+        if not p and not q: # 都为空
             return True
-        elif not p or not q:
+        elif not p or not q: #此时不可能存在1 or 1的情况了，因为前一步已指明
             return False
         elif p.val != q.val:
             return False
