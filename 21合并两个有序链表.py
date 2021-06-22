@@ -1,11 +1,29 @@
+class ListNode:
+    def __init__(self, val = 0, next = None):
+        self.val = val
+        self.next = next
+
+# 将我们输入的数组转化为链表形式
+def array_to_linked(listing):
+    head = ListNode(listing[0], None)
+    finger = head
+    for i in range(1, len(listing)):
+        finger.next = ListNode(listing[i], None)
+        finger = finger.next
+    return head
+
+# 将机器输出的链表转化为我们能读的数组形式
+def linked_to_array(head):
+    finger = head
+    res = []
+    while finger:
+        res.append(finger.val)
+        finger = finger.next
+    return res
+
 '''
 暴力解法
 '''
-# Definition for singly-linked list.
-class ListNode(object):#创建节点
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
 class Solution(object):
     def mergeTwoLists(self, l1, l2):
         # 待输出链表的头部
@@ -25,21 +43,10 @@ class Solution(object):
         last.next = l1 if l1 else l2
         return head.next
 
-s = Solution()
-print(s.mergeTwoLists([1,2,4],[1,3,4]))
-
-'''
-对链表的注释
-'''
-if (l1,l2) = ([1,2,4],[1,3,4]):
-则经过letcode内部列表转化为链表后可得：
-l1-----ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}
-l2-----ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 4, next: None}}}
-
 '''
 递归
 '''
-class Solution:
+class Solution1:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         if not l1: return l2  # 终止条件，直到两个链表都空
         if not l2: return l1
@@ -49,4 +56,20 @@ class Solution:
         else:
             l2.next = self.mergeTwoLists(l1,l2.next)
             return l2
-        list1 = list(map(int, str(11))
+
+array1 = array_to_linked([1,2,4,9,15])
+array2 = array_to_linked([1,3,4])
+s = Solution()
+listing = s.mergeTwoLists(array1, array2)
+print(linked_to_array(listing))
+
+
+
+'''
+对链表的注释
+
+if (l1,l2) = ([1,2,4],[1,3,4]):
+则经过letcode内部列表转化为链表后可得：
+l1-----ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}
+l2-----ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 4, next: None}}}
+'''
