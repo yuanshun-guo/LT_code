@@ -23,28 +23,8 @@ def print_linked_list(head):
         res.append(cur.val)
         cur = cur.next
     return res
-# class Solution():
-#     def mergeTwoLists(self, l1, l2):
-#         pre = ListNode(0)
-#         head = pre
-#         while l1 and l2:
-#             if l1.val >= l2.val:
-#                 pre.next = l2
-#                 l2 = l2.next
-#             else:
-#                 pre.next = l1
-#                 l1 = l1.next
-#                 # 可以看出l1和l2在摆动，交替成为pre.next
-#             pre = pre.next
-#         pre.next = l1 if l1 else l2
-#         return head.next # 除去前面的哑节点
-# if __name__ == "__main__":
-#     head1 = create_linked_list([1, 2, 4])
-#     head2 = create_linked_list([1, 3, 4])
-#     solution = Solution()
-#     sorted_lists = solution.mergeTwoLists(head1, head2)
-#     print(print_linked_list(sorted_lists))
-# # 输出：[1, 1, 2, 3, 4, 4]
+
+
 
 '''
 力扣上的形式
@@ -57,10 +37,10 @@ class ListNode1:
 
 # 将我们输入的数组转化为链表形式
 def array_to_linked(listing):
-    head = ListNode1(listing[0], None)
+    head = ListNode1(listing[0])
     finger = head
     for i in range(1, len(listing)):
-        finger.next = ListNode1(listing[i], None)
+        finger.next = ListNode1(listing[i])
         finger = finger.next
     return head
 

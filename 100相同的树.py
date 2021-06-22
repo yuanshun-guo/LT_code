@@ -59,6 +59,6 @@ class Solution1(object):
             return self.isSameTree(p.left, p.right) and self.isSameTree(p.right, q.right)
 
 s = Solution1()
-p = TreeNode(1, 'null', 2)
-q = TreeNode(1, 'null', 2)
+p = TreeNode(1, None, 2)
+q = TreeNode(1, None, 2)
 print(s.isSameTree(p, q))
