@@ -73,7 +73,7 @@ class Solution(object):
         """
         if not root:
             return 0
-        queue = deque()
+        queue = deque() #引入了双端队列deque
         queue.append(root)
         ans = 0
         while queue:
@@ -85,7 +85,6 @@ class Solution(object):
                 if node.right:
                     queue.append(node.right)
         return ans
-
 
 
 nl2 = [3,9,20,None,None,15,7]
