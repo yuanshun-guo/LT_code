@@ -65,70 +65,41 @@ class BiTreeHelper(object):
 
 
 class Solution(object):
-    def isSymmetric(self, root):
+    def maxDepth(self, root):
         """
-        递归
+        BFS广度优先搜索
         :type root: TreeNode
-        :rtype: bool
+        :rtype: int
         """
         if not root:
-            return True
-        def dfs(left, right):
-            # 递归的终止条件是两个节点都为空
-            # 或者两个节点中有一个为空
-            # 或者两个节点的值不相等
-            if not (left or right): #只有当括号里的两个都为空时，括号内才为0，此时True
-                return True
-            if not (left and right):#只有当括号里的其中一个为空时，括号内才为0，此时False
-                return False
-            if left.val != right.val:
-                return False
-            return dfs(left.left, right.right) and dfs(left.right, right.left)
-            # 用递归函数，比较左节点，右节点
-
-        return dfs(root.left, root.right)
+            return 0
+        queue = deque()
+        queue.append(root)
+        ans = 0
+        while queue:
+            ans += 1
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+        return ans
 
 
-class Solution1(object):
-    def isSymmetric(self, root):
-        """
-        队列
-        :type root: TreeNode
-        :rtype: bool
-        """
-        if not root or not(root.left or root.right):
-            return True
-        quence = [root.left, root.right]
-        while quence:
-            left = quence.pop(0)
-            right = quence.pop(0)
-            '''
-            1.当两个都为空时，继续循环
-            2.当只有有一个为空时,返回False
-            3.当需比较的两个值不相等时，返回False
-            '''
-            if not (left or right):
-                continue
-            elif not (left and right):
-                return False
-            elif left.val != right.val:
-                return False
-            # 比较两侧
-            quence.append(left.left)
-            quence.append(right.right)
-            # 比较内侧
-            quence.append(left.right)
-            quence.append(right.left)
-        return True # 能把循环跑完，肯斯能够说明就是对称的
 
-
-nl2 = [1,2,2,'null',3,'null',3] # False
+nl2 = [3,9,20,None,None,15,7]
 
 bi2 = BiTreeHelper(nl2)
 bi2.inorder_traversal_print()
 
 s = Solution()
-print(s.isSymmetric(bi2.root))
+print(s.maxDepth(bi2.root))
+
+
+
+
+
 
 
 

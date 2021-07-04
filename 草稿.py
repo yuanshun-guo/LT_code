@@ -84,4 +84,13 @@
 #     print(item1,item2,item3)
 # nums = [2,6,3,9,4]
 # print(nums[-3:])
-print(1 or 1)
+# list0 = [3, 5, 6, 1]
+# i = 0
+# while i < len(list0) - 1:
+#     a = min(list0)
+#     print(a)
+#     list0.pop(a)
+#     print(list0)
+#     i += 1
+for i in range(5):
+    print(i)
