@@ -7,7 +7,7 @@ a = [1,2]
 b = [3,4]
 c = [5,6,9,8,2,6,2,5]
 
-print(sum((a,b,c), [])) or a + b + c or
+print(sum((a,b,c), [])) or a + b + c
 # from distutils.sysconfig import get_python_lib
 # print(get_python_lib())
 a.extend(b)

@@ -73,7 +73,7 @@ class Solution(object):
         """
         if not root:
             return 0
-        queue = deque() #引入了双端队列deque
+        queue = deque()  # 引入了双端队列deque
         queue.append(root)
         ans = 0
         while queue:
