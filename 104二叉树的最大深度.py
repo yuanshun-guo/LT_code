@@ -80,6 +80,8 @@ class Solution(object):
             ans += 1
             for _ in range(len(queue)):
                 node = queue.popleft()
+                if not (node.left or node.right):
+                    return ans
                 if node.left:
                     queue.append(node.left)
                 if node.right:

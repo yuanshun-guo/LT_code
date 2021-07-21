@@ -1,31 +1,33 @@
 class Solution(object):
     def removeElement(self, nums, val):
         """
-        :type nums: List[int]
-        :type val: int
-        :rtype: int
+        暴力解法
+        时间复杂度：O(n^2)
+        空间复杂度：O(1)
         """
+        length = len(nums)
         i = 0
-        while i < len(nums):
-            if  nums[i]  == val:
-                nums.pop(i)
-            else:
-                i += 1
-        return len(nums),nums
+        while i < length:
+            if nums[i] == val:
+                for j in range(i + 1, length):
+                    nums[j - 1] = nums[j] # 考虑溢出用 j - 1
+                i -= 1
+                length -= 1
+            i += 1
+        return length
 
-# """
-# 双指针
-# """
-# class Solution:
-#     def removeElement(self, nums, val) :
-#         a = 0
-#         b = 0
-#         while a < len(nums):
-#             if nums[a] != val:
-#                 nums[b] = nums[a]
-#                 b += 1
-#             a += 1
-#         return b
-
-s = Solution()
-print(s.removeElement([1,1,2,3,5,6,9,10,20,35,60,96,96,96],96))
+class Solution1:
+    def removeElement(self, nums, val):
+        '''
+        双指针
+        // 时间复杂度：O(n)
+        // 空间复杂度：O(1)
+        '''
+        slowIndex = 0
+        for fastIndex in range(len(nums)):
+            if nums[fastIndex] != val:
+                nums[slowIndex] = nums[fastIndex]
+                slowIndex += 1
+        return slowIndex
+s = Solution1()
+print(s.removeElement([1,1,96,5,96],96))

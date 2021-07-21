@@ -1,48 +1,40 @@
-"""
-一般解法
-"""
-class Solution(object):
+class Solution0(object):
     def searchInsert(self, nums, target):
+            '''
+            暴力解法
+            :param nums:
+            :param target:
+            :return:
+            '''
             length = len(nums)
-            i = 0
-            if target in nums:
-                    return nums.index(target)
-            else:
-                    while i < length:
-                            if nums[length - 1] < target:
-                                    # nums.append(target)
-                                    return length
-                            elif nums[0] > target:
-                                    # nums.insert(0,target)
-                                    return 0
-                            elif nums[i] < target< nums[i + 1]:
-                                    # nums.insert(i + 1,target)
-                                    return i + 1
-                            else:
-                                    i += 1
+            for i in range(length):
+                    if nums[i] >= target:
+                            return i
+            return length
 
-
-"""
-二分法
-"""
-class Solution(object):
+class Solution1(object):
     def searchInsert(self, nums, target):
-            length = len(nums)
-            left = 0
-            right = length - 1
-            # print(left,right)
-            if nums[right] < target:
-                    return length
+        """
+        二分法
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        left = 0
+        right = len(nums) - 1
+        while left <= right:
+            mid = left + (right - left) // 2
+            if nums[mid] > target:
+                right = mid - 1
+            elif nums[mid] < target:
+                left = mid + 1
             else:
-                    while left < right:
-                            # print(left, right)
-                            mid = left + (right - left) //2
-                            # print(length,left,right,mid)
-                            if target < nums[mid]:
-                                    right = mid
-                            else:
-                                    left = mid + 1
-                    return right
+                return mid
+        return right + 1    # 分别处理如下四种情况
+                            # 目标值在数组所有元素之前  [0, -1]
+                            # 目标值等于数组中某一个元素  return middle;
+                            # 目标值插入数组中的位置 [left, right]，return  right + 1
+                            # 目标值在数组所有元素之后的情况 [left, right]， return right + 1
 
-s = Solution()
-print(s.searchInsert([2,3,5,6], 1))
+s = Solution0()
+print(s.searchInsert([2,3,5,6], 2))

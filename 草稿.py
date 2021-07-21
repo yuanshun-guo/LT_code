@@ -92,5 +92,7 @@
 #     list0.pop(a)
 #     print(list0)
 #     i += 1
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
+num = [1, 5, 6]
+print(num.size())
