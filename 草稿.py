@@ -95,4 +95,5 @@
 # for i in range(5):
 #     print(i)
 num = [1, 5, 6]
-print(num.size())
+print(len(num))
+print([0]*5)
