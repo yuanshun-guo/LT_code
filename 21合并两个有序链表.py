@@ -43,6 +43,7 @@ class Solution(object):
         last.next = l1 if l1 else l2
         return head.next
 
+
 '''
 递归
 '''

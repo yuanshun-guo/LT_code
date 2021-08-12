@@ -22,11 +22,11 @@ class Solution1(object):
         result = [0] * len(nums)
         move = len(nums) - 1
         while left <= right:
-            if nums[left] *nums[left] > nums[right] *nums[right]:
-                result[move] =(nums[left] *nums[left])
+            if nums[left] * nums[left] > nums[right] * nums[right]:
+                result[move] =(nums[left] * nums[left])
                 left += 1
             else:
-                result[move] =(nums[right] *nums[right])
+                result[move] =(nums[right] *  nums[right])
                 right -= 1
             move -= 1
 

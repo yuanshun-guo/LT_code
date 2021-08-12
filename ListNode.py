@@ -52,22 +52,3 @@ def linked_to_array(head):
         res.append(finger.val)
         finger = finger.next
     return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

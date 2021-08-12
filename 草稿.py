@@ -94,6 +94,9 @@
 #     i += 1
 # for i in range(5):
 #     print(i)
-num = [1, 5, 6]
-print(len(num))
-print([0]*5)
+# num = [1, 5, 6]
+# print(len(num))
+# print([0]*5)
+n = 5
+matrix = [[[0] * n] * n ]
+print(matrix)

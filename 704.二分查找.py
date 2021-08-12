@@ -1,3 +1,6 @@
+'''
+循环不变量规则:要在二分查找的过程中，保持不变量，就是在while寻找中每一次边界的处理都要坚持根据区间的定义来操作
+'''
 class Solution(object):
     def search(self, nums, target):
         """
