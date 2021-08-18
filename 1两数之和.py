@@ -1,37 +1,20 @@
-# # method_1
-# class Solution:
-#     def twoSum(self, nums, target):
-#         n = len(nums)
-#         for i in range(n):
-#             for j in range(n):
-#                 if (nums[i] + nums[j] == target) and (i < j):
-#                     return([i, j])
-#
-# s = Solution()
-# print(s.twoSum([2,7,12,56],9))
-        
-# # method_2
-# class Solution:
-#     def twoSum(self,nums, target):
-#         hashmap={}
-#         for ind,num in enumerate(nums):
-#             hashmap[num] = ind
-#         for i,num in enumerate(nums):
-#             j = hashmap.get(target - num)
-#             if j is not None and i!=j:
-#                 return [i,j]
-#
-# s = Solution()
-# print(s.twoSum([2,7,12,56],9))
-
-#method_3
 class Solution:
     def twoSum(self,nums, target):
-        hashmap={}
-        for i,num in enumerate(nums):
-            if hashmap.get(target - num) is not None:
-                return [i,hashmap.get(target - num)]
-            hashmap[num] = i #这句不能放在if语句之前，解决list中有重复值或target-num=num的情况
+        '''
+        python里的哈希：集合set() + 数组nums[] + 字典dict{}
+        1.需返回下标值，所以不能用集合，
+        2.时间复杂度小于O(n^2)，所以不能用暴力嵌套循环
+        3.数组的大小是受限制的，而且如果元素很少，而哈希值太大会造成内存空间的浪费。且用列表list.index(value)时，内部会消耗时间。
+        20 ms	13.6 MB
+        '''
+        # 将输入的数据转化成字典,这里的作用是为了下一步可以直接返回索引值
+        hashdict = {}
+        for i, num in enumerate(nums):       # i是下标索引值，num是值value
+            hashdict[num] = i                # 这样做的目的是为了下面你可以通过.get()来进行返回索引值
 
-s = Solution()
-print(s.twoSum([2,7,12,56],19))
+        # 从原数组中一个一个找
+        for m, num in enumerate(nums):
+            m_n = hashdict.get(target - num)  # get里面是键key,返回值value，所以这里是通过差值返回索引值，
+                                                # 如果确定键值存在，用hashdict[target- num]也可以，如果不存在就会返回出错
+            if m_n is not None and m_n != m:
+                return [m, m_n]                 # m是数组直接搜索出来的，m_n是通过前面转化后哈希出来的

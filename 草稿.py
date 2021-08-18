@@ -97,6 +97,21 @@
 # num = [1, 5, 6]
 # print(len(num))
 # print([0]*5)
-n = 5
-matrix = [[[0] * n] * n ]
-print(matrix)
+# n = {1:2,5:5}
+# # matrix = [[[0] * n] * n ]
+# m = n.get(2)
+# print(m)
+
+
+# def getSum(n):
+#     sum_ = 0
+#     while n:
+#         sum_ += (n % 10) * (n % 10)
+#         n //= 10
+#     return sum_
+
+
+# print(getSum(62))
+
+list1 = [1,2,3,6,4,8]
+print(list1.index(8))
