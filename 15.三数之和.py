@@ -1,9 +1,14 @@
 class Solution(object):
     def threeSum(self, nums):
-        # 找出a + b + c = 0
-        # a = nums[i], b = nums[left], c = nums[right]
+        '''
+        双指针，不宜用哈希法
+        292 ms	18.5 MB
+        '''
         result = []
-        length  = len(nums)
+        length = len(nums)
+
+        # 先将nums排序！
+        nums.sort()
         for i in range(length):
 
             # 排序之后如果第一个元素已经大于零，那么无论如何组合都不可能凑成三元组，直接返回结果就可以了
@@ -34,7 +39,7 @@ class Solution(object):
                 else:  # total = 0
                     result.append([nums[i], nums[left], nums[right]])
 
-                    # 去重逻辑应该放在找到一个三元组之后
+                    # 去重逻辑（筛除重复的结果）应该放在找到一个三元组之后
                     while left != right and nums[left] == nums[left + 1]:
                         left += 1
                     while left != right and nums[right] == nums[right - 1]:
@@ -43,4 +48,4 @@ class Solution(object):
                     # 找到答案时，双指针同时收缩
                     left += 1
                     right -= 1
-            return result
+        return result
