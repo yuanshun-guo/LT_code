@@ -2,9 +2,7 @@ class Solution0(object):
     def searchInsert(self, nums, target):
             '''
             暴力解法
-            :param nums:
-            :param target:
-            :return:
+
             '''
             length = len(nums)
             for i in range(length):
@@ -16,9 +14,7 @@ class Solution1(object):
     def searchInsert(self, nums, target):
         """
         二分法
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
+
         """
         left = 0
         right = len(nums) - 1

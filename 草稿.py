@@ -112,6 +112,25 @@
 
 
 # print(getSum(62))
+#
+# list1 = [1,2,3,6,4,8]
+# print(list1.index(8))
 
-list1 = [1,2,3,6,4,8]
-print(list1.index(8))
+# for i in range(0, 8, 2):
+#     print(i)
+# from functools import reduce
+#
+# s = "mnenEINNWVWAO"
+# S = list(s)
+# print(S)
+# print(reduce(lambda a, b: a + b, s))
+# print(list1.size, len(list1))
+# str = "we are hie"
+# for i in range(len(str)):
+#     print(str[i])
+# str += ' e'
+# print(str)
+# str[2] = 3
+# print(str[1])
+list = [1,5,3,9,7]
+print(list[0:2])

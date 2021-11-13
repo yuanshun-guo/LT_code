@@ -2,10 +2,14 @@ class Solution(object):
     def threeSum(self, nums):
         '''
         双指针，不宜用哈希法
+        一层for循环num[i]为确定值，然后循环内有left和right下表作为双指针
+        时间复杂度是O(n^2)
         292 ms	18.5 MB
         '''
         result = []
         length = len(nums)
+        if not nums or length < 3:
+            return []
 
         # 先将nums排序！
         nums.sort()
@@ -39,7 +43,8 @@ class Solution(object):
                 else:  # total = 0
                     result.append([nums[i], nums[left], nums[right]])
 
-                    # 去重逻辑（筛除重复的结果）应该放在找到一个三元组之后
+                    # 去重逻辑: 注意这里是left和right,分别与其加一和减一进行比较，这是为了下一步做准备，也就是类似最上面的continue
+                    # 应该放在找到一个三元组之后
                     while left != right and nums[left] == nums[left + 1]:
                         left += 1
                     while left != right and nums[right] == nums[right - 1]:
