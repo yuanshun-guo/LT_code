@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/347. 前K个高频元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9f175ee3-7bfd-4a5a-8cf8-1449630e3d04" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/f_x/heap堆.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/347. 前K个高频元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/347. 前K个高频元素.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
   </component>
   <component name="ProjectId" id="1rbieed98WywKqU8ZbpjXSd8OjW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
@@ -481,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629340366430</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="默认更改列表">
+      <created>1636799423809</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1636799423810</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +523,8 @@
     <MESSAGE value="2021.7.23" />
     <MESSAGE value="2021.8.18" />
     <MESSAGE value="2021.8.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021.8.19" />
+    <MESSAGE value="默认更改列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
