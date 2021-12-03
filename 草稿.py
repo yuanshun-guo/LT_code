@@ -132,5 +132,11 @@
 # print(str)
 # str[2] = 3
 # print(str[1])
-list = [1,5,3,9,7]
-print(list[0:2])
+# list = [1,5,3,9,7]
+# print(list[0:2])
+
+import requests
+
+url = 'https://www.baidu.com/'
+response = requests.get(url)
+print(response.text)

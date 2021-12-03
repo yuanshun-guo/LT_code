@@ -27,3 +27,4 @@ class Solution(object):
                 res.append(tmp.val) # 是节点的val
                 root = tmp.right
         return res
+
