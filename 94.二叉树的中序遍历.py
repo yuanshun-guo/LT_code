@@ -49,7 +49,7 @@ class Solution1:
             # 这是模拟递归的调用
             if cur:
                 stack.append(cur)  # 是节点
-                cur = cur.left    # 如果此时的左节点不存在，cur = None, 进入else
+                cur = cur.left     # 如果此时的左节点不存在，cur = None, 进入else
             # 到达最左结点后处理栈顶结点
 
             # 当前节点为空，说明左边走到头了，从栈中弹出节点并保存

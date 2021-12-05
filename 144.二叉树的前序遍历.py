@@ -58,7 +58,6 @@ class Solution1:
                 stack.append(node.left)
         return result
 
-
 class Solution2:
     """前中后序 统一写法（不太好理解）"""
 

@@ -19,9 +19,24 @@ class Solution:
         if not root:
             return []
         from collections import deque
-        deque = deque(root)
-        result = []
+        deque = deque([root])
+        results = []
+
         while deque:
+            size = len(deque)
+            result = []    # 因为要每一层读，所以需要按时清空
+            while size:  # 实现每一层的读取
+                cur = deque.popleft()
+                result.append(cur.val)
+                if cur.left:
+                    deque.append(cur.left)
+                if cur.right:
+                    deque.append(cur.right)
+
+                size -= 1
+            results.append(result)
+
+        return results
 
 
 
