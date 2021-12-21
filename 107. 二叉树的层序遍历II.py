@@ -1,5 +1,7 @@
 """
 前提：层序遍历 就是 广度优先搜索，就是一层一层的遍历，需借助队列来实现
+
+在原来的基础上，将结果倒序一下就行
 """
 
 from typing import List
@@ -36,7 +38,9 @@ class Solution:
                 size -= 1
             results.append(result)
 
-        return results
+        # results.reverse()
+        # return results
+        return results[::-1]
 
 
 
