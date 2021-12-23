@@ -32,7 +32,7 @@ class Solution:
             size = len(deque)
 
             # 每次都取最后一个node就可以了
-            results.append(deque.pop().val)
+            results.append(deque[-1].val)
             while size:  # 实现每一层的读取
                 cur = deque.popleft()
                 if cur.left:
