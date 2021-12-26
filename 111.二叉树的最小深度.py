@@ -20,7 +20,7 @@ class Solution:
         deque = deque([(root, 1)])    # 根节点的深度为1
 
         while deque:
-            cur, depth = deque.pop(0)   # 将元祖分开
+            cur, depth = deque.popleft()   # 将元祖分开
             # 只有当左右孩子都为空的时候，才说明遍历的最低点了。如果其中一个孩子为空则不是最低点
             if not cur.left and not cur.right:
                 return depth
