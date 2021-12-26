@@ -5,38 +5,35 @@
 from typing import List
 
 
-class TreeNode:
+class Node:
     def __init__(self, val):
         self.val = val
         self.left = None
         self.right = None
+        self.next = None
 
 
-class Solution:
-    """二叉树层序遍历迭代解法"""
-
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+class Solution1:
+    def connect(self, root: Node) -> List[int]:
         if not root:
-            return []
+            return None
         from collections import deque  # 导入第三方模块也可以在实现的代码中
         deque = deque([root])
-        results = []  # 这个是最终结果
 
         while deque:
             size = len(deque)
-            result = []    # 因为要每一层读，所以需要按时清空
             while size:  # 实现每一层的读取
                 cur = deque.popleft()
-                result.append(cur.val)
                 if cur.left:
                     deque.append(cur.left)
                 if cur.right:
                     deque.append(cur.right)
-
                 size -= 1
-            results.append(max(result))
 
-        return results
+                if size == 0:
+                    break   # 此时没有对cur的next进行匹配，则默认是None
+                cur.next = deque[0]
+        return root
 
 
 
