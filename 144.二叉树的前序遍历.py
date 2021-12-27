@@ -22,8 +22,8 @@ class Solution:
         # 单层递归的逻辑
         def traversal(root: TreeNode):
             # 终止条件
-            if root is None:
-                return
+            if not root:
+                return []
             # 遍历开始
             result.append(root.val)
             traversal(root.left)
