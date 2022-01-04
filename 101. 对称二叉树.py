@@ -55,21 +55,57 @@ class Solution1:
         if not root:
             return True
         from collections import deque
-        queue = collections.deque()
-        queue.append(root.left)  # 将左子树头结点加入队列
-        queue.append(root.right)  # 将右子树头结点加入队列
-        while queue:  # 接下来就要判断这这两个树是否相互翻转
-            leftNode = queue.popleft()
-            rightNode = queue.popleft()
-            if not leftNode and not rightNode:  # 左节点为空、右节点为空，此时说明是对称的
+        deque = deque()  # 因为这里是药比较子节点，所以最开始不需要写入[root]
+        deque.append(root.left)  # 将左子树头结点加入队列
+        deque.append(root.right)  # 将右子树头结点加入队列
+        while deque:  # 接下来就要判断这这两个树是否相互翻转
+            leftNode = deque.popleft()
+            rightNode = deque.popleft()
+            # 左节点为空、右节点为空，此时说明是对称的
+            if not leftNode and not rightNode:
                 continue
 
-            # 左右一个节点不为空，或者都不为空但数值不相同，返回false
-            if not leftNode or not rightNode or leftNode.val != rightNode.val:
+            # 首先排除空节点的情况
+            elif not leftNode and rightNode:
                 return False
-            queue.append(leftNode.left)  # 加入左节点左孩子
-            queue.append(rightNode.right)  # 加入右节点右孩子
-            queue.append(leftNode.right)  # 加入左节点右孩子
-            queue.append(rightNode.left)  # 加入右节点左孩子
+            elif leftNode and not rightNode:
+                return False
+            # 排除了空节点，再排除数值不相同的情况
+            elif leftNode.val != rightNode.val:
+                return False
+
+            deque.append(leftNode.left)  # 加入左节点左孩子
+            deque.append(rightNode.right)  # 加入右节点右孩子
+            deque.append(leftNode.right)  # 加入左节点右孩子
+            deque.append(rightNode.left)  # 加入右节点左孩子
         return True
 
+
+# 迭代法：（使用栈，其思路和 队列 是一样的）
+class Solution2:
+    def isSymmetric(self, root: TreeNode) -> bool:
+        if not root:
+            return True
+        stack = [] #这里改成了栈
+        stack.append(root.left)
+        stack.append(root.right)
+        while stack:
+            leftNode = stack.pop()
+            rightNode = stack.pop()
+            # 左节点为空、右节点为空，此时说明是对称的
+            if not leftNode and not rightNode:
+                continue
+
+            # 首先排除空节点的情况
+            elif not leftNode and rightNode:
+                return False
+            elif leftNode and not rightNode:
+                return False
+            # 排除了空节点，再排除数值不相同的情况
+            elif leftNode.val != rightNode.val:
+                return False
+            stack.append(leftNode.left)
+            stack.append(rightNode.right)
+            stack.append(leftNode.right)
+            stack.append(rightNode.left)
+        return True
