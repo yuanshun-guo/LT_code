@@ -38,7 +38,7 @@ class Solution2:
         return root
 
 
-# 方法三：迭代法：广度优先遍历（层序遍历）：
+# 方法三：迭代法：（广度优先遍历（层序遍历））：
 class Solution3:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if not root:
