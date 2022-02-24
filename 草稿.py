@@ -135,8 +135,14 @@
 # list = [1,5,3,9,7]
 # print(list[0:2])
 
-import requests
+# import requests
+#
+# url = 'https://www.baidu.com/'
+# response = requests.get(url)
+# print(response.text)
+def index():
+    a = 1
+    b = 2
+    return a + b
 
-url = 'https://www.baidu.com/'
-response = requests.get(url)
-print(response.text)
+print(c := index())
