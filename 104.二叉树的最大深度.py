@@ -1,5 +1,7 @@
 """
-前提：层序遍历 就是 广度优先搜索，就是一层一层的遍历，需借助队列来实现
+前提：层序遍历 就是 广度优先搜索，就是一层一层的遍历，需借助队列来实现，遍历一层加1
+
+最大深度，就是从根节点到某个 叶子节点 的最大层数
 """
 
 from typing import List
@@ -22,7 +24,7 @@ class Solution:
         results = []  # 这个是最终结果
 
         while deque:
-            size = len(deque)
+            size = len(deque)   # size相当于每一层的个数
             result = []
             while size:
                 cur = deque.popleft()

@@ -3,7 +3,7 @@
      所以在递归遍历的过程中，比较两个子树对应的里侧和外侧的元素是否相等
 
      递归，只能用后续遍历
-     迭代：使用队列和栈都可以，但这里的迭代不属于层序遍历
+     迭代：使用队列和栈都可以，但这里的迭代不属于层序遍历-----（用栈来实现递归的写法，也就是所谓的迭代法）
 """
 
 
@@ -51,11 +51,12 @@ class Solution:
 
 # 迭代法：（使用队列）
 class Solution1:
+
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:
             return True
         from collections import deque
-        deque = deque()  # 因为这里是药比较子节点，所以最开始不需要写入[root]
+        deque = deque()  # 因为这里是要比较子节点，所以最开始不需要写入[root]
         deque.append(root.left)  # 将左子树头结点加入队列
         deque.append(root.right)  # 将右子树头结点加入队列
         while deque:  # 接下来就要判断这这两个树是否相互翻转
@@ -78,6 +79,8 @@ class Solution1:
             deque.append(rightNode.right)  # 加入右节点右孩子
             deque.append(leftNode.right)  # 加入左节点右孩子
             deque.append(rightNode.left)  # 加入右节点左孩子
+
+        # 如果到最后都没return False，那么说明肯定都比较完了而且都相等（我们在第三个elif处也进行了比较的）
         return True
 
 

@@ -32,9 +32,9 @@ class Solution2:
             cur = stack.pop()
             cur.left, cur.right = cur.right, cur.left #中
             if cur.right:
-                stack.append(cur.right) #右
+                stack.append(cur.right)  #右
             if cur.left:
-                stack.append(cur.left) #左
+                stack.append(cur.left)  #左
         return root
 
 

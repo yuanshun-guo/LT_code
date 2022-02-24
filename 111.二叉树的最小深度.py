@@ -1,5 +1,7 @@
 """
 前提：层序遍历 就是 广度优先搜索，就是一层一层的遍历，需借助队列来实现
+
+最小深度，就是从根节点到某个 叶子节点 的最小层数
 """
 
 from typing import List
@@ -20,13 +22,13 @@ class Solution:
         deque = deque([(root, 1)])    # 根节点的深度为1
 
         while deque:
-            cur, depth = deque.popleft()   # 将元祖分开
-            # 只有当左右孩子都为空的时候，才说明遍历的最低点了。如果其中一个孩子为空则不是最低点
+            cur, depth = deque.popleft()   # 将元组分开---拆包
+            # 只有当左右孩子都为空的时候，才说明到遍历的最低点了。如果其中一个孩子为空则不是最低点
             if not cur.left and not cur.right:
                 return depth
             # 先左子节点，由于左子节点没有孩子，则就是这一层了
             if cur.left:
-                deque.append((cur.left, depth + 1))   # 这里不是depth += 1，所以depth在这里没有变
+                deque.append((cur.left, depth + 1))   # 这里不是depth += 1，所以depth在这里没有变，这就为下面的right的操作提供了方便，免得到时候多加1
             if cur.right:
                 deque.append((cur.right, depth + 1))
 
