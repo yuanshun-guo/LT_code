@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="2022.2.23">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/222.完全二叉树的节点个数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LT_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LT_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101. 对称二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/101.对称二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/104.二叉树的最大深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/104.二叉树的最大深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/111.二叉树的最小深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/111.二叉树的最小深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/226.翻转二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/226.翻转二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_note.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="2022.2.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +61,7 @@
       <updated>1641263678685</updated>
       <workItem from="1645536285573" duration="2390000" />
       <workItem from="1645605819111" duration="9432000" />
+      <workItem from="1645672851790" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
