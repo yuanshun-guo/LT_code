@@ -17,34 +17,35 @@ class TreeNode:
 # 递归法:(只能用后续遍历)
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
+        # 判断最初的根节点
         if not root:
             return True
 
-        # 单层递归的逻辑
-        def compare(left, right):
-            # 以下为终止条件
-
-            # 首先排除空节点的情况
-            if not left and right:
-                return False
-            elif left and not right:
-                return False
-            # 都为空，返回true
-            elif not left and not right:
-                return True
-            # 排除了空节点，再排除数值不相同的情况
-            elif left.val != right.val:
-                return False
-
-            # 此时就是：左右节点都不为空，且数值相同的情况
-            # 此时才做递归，做下一层的判断
-            outside = compare(left.left, right.right)  # 左子树：左、 右子树：右
-            inside = compare(left.right, right.left)  # 左子树：右、 右子树：左
-            isSame = outside and inside  # 左子树：中、 右子树：中 （逻辑处理）
-            return isSame  # true or false
-
         # 内部函数的调用
-        return compare(root.left, root.right)
+        return self.compare(root.left, root.right)
+
+    # 单层递归的逻辑
+    def compare(self, left, right):
+        # 以下为终止条件
+
+        # 首先排除空节点的情况
+        if not left and right:
+            return False
+        elif left and not right:
+            return False
+        # 都为空，返回true
+        elif not left and not right:
+            return True
+        # 排除了空节点，再排除数值不相同的情况
+        elif left.val != right.val:
+            return False
+
+        # 此时就是：左右节点都不为空，且数值相同的情况
+        # 此时才做递归，做下一层的判断
+        outside = self.compare(left.left, right.right)  # 左子树：左、 右子树：右
+        inside = self.compare(left.right, right.left)  # 左子树：右、 右子树：左
+        isSame = outside and inside  # 左子树：中、 右子树：中 （逻辑处理）
+        return isSame  # true or false
 
 
 

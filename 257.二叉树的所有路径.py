@@ -43,6 +43,10 @@ class Solution:
         if cur.right:
             self.traversal(cur.right, path + '->', result)
 
+        '''
+        上面的代码，大家貌似感受不到回溯了，其实回溯就隐藏在traversal(cur.left, path + "->", result);中的 path + "->"。 
+        每次函数调用完，path依然是没有加上"->" 的，这就是回溯了。
+        '''
 
 
 
