@@ -25,6 +25,8 @@ class Solution:
         while deque:
             size = len(deque)
             result = []    # 因为要每一层读，所以需要按时清空
+
+            # 层序遍历的时候才需要有两个while
             while size:  # 实现每一层的读取
                 cur = deque.popleft()
                 result.append(cur.val)
@@ -37,18 +39,3 @@ class Solution:
             results.append(result)
 
         return results
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
