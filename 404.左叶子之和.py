@@ -54,7 +54,7 @@ class Solution1:
             if cur_node.left and not cur_node.left.left and not cur_node.left.right:
                 result += cur_node.left.val
 
-            # 层序遍历的时候才需要有两个while
+            # 层序遍历的时候可能会需要有两个while
             if cur_node.left:
                 stack.append(cur_node.left)
             if cur_node.right:
