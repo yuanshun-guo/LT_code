@@ -140,9 +140,28 @@
 # url = 'https://www.baidu.com/'
 # response = requests.get(url)
 # print(response.text)
-def index():
-    a = 1
-    b = 2
-    return a + b
+# def index():
+#     a = 1
+#     b = 2
+#     c = [1, 3, 4, 5]
+#     return c[:]
+#
+# def run():
+#     path = []
+#     result = []
+#     result0 = []
+#     for i in range(5):
+#         path.append(i)
+#         result.append(path)
+#         result0.append(path[:])
+#         print(result0, path)
+#
+#     return result, '/n', result0
+# print(c := run())
 
-print(c := index())
+
+a = [1, 2, 3, 4, 5]
+print(id(a))
+a[:] = [3, 0]
+print(id(a))
+print(id(a[:]))
