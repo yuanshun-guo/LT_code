@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="3.6">
-      <change afterPath="$PROJECT_DIR$/106.从中序与后序遍历序列构造二叉树.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="3.10">
+      <change afterPath="$PROJECT_DIR$/105.从前序与中序遍历序列构造二叉树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_note.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1646380689403" duration="6162000" />
       <workItem from="1646470165882" duration="15834000" />
       <workItem from="1646654943943" duration="60000" />
-      <workItem from="1646881329275" duration="6816000" />
+      <workItem from="1646881329275" duration="8777000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646619041763</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="3.10">
+      <created>1646896441478</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646896441478</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,17 +230,18 @@
     <MESSAGE value="3.2" />
     <MESSAGE value="3.5" />
     <MESSAGE value="3.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.6" />
+    <MESSAGE value="3.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1646881541002">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1646896434933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1646881541002" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1646896434933" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1646655002264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -262,10 +270,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1646619043568">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1646896445310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1646619043568" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1646896445310" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
