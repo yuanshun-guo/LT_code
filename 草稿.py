@@ -161,7 +161,10 @@
 
 
 a = [1, 2, 3, 4, 5]
-print(id(a))
-a[:] = [3, 0]
-print(id(a))
-print(id(a[:]))
+# print(id(a))
+# a[:] = [3, 0]
+# print(id(a))
+# print(id(a[:]))
+
+print(a[1:3])   # 左闭右开
+
