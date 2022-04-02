@@ -158,13 +158,156 @@
 #
 #     return result, '/n', result0
 # print(c := run())
+#
+#
+# a = [1, 2, 3, 4, 5]
+# # print(id(a))
+# # a[:] = [3, 0]
+# # print(id(a))
+# # print(id(a[:]))
+#
+# print(a[1:3])   # 左闭右开
+
+# a = range(4)
+# print(type(a))
+# print(range(4))
+#
+#
+# b = {"名字": "gys"}
+# del b["名字"]
+# print(b)
+#
+# c = [x for x in range(2, 8)]
+# print(c)
 
 
-a = [1, 2, 3, 4, 5]
-# print(id(a))
-# a[:] = [3, 0]
-# print(id(a))
-# print(id(a[:]))
 
-print(a[1:3])   # 左闭右开
 
+
+# a = [1, 2, 3, 4, 5]
+# def f(x):
+#     return x ** 2
+# b = map(f, a)
+# c = [i for i in b if i < 10]
+# print(c)
+#
+# import random
+# import numpy as np
+#
+#
+# a = random.random()
+# print(a)
+# b = np.random.randint(5, 9)
+# c = np.random.randn(5)
+# print(b, c)
+
+# import re
+# string='www.baidu.com,www.runoob.com,www.163.com'
+# pattern='www'
+# m_match1=re.match(pattern,string)
+# print(m_match1.group())
+# m_match2=re.search(pattern,string)
+# m_match3=re.findall(pattern,string)
+# print(m_match1)
+# print(m_match2)
+# print(m_match3)
+
+
+# s = 'nevwemiovnww'
+# s = set(s)
+# s = list(s)
+# # s.sort()
+# s.sort(reverse=False)
+#
+# res = "".join(s)
+# print(res)
+#
+# sum = lambda a, b: a * b
+# print(sum(2, 4))
+#
+# a = {"name": "我是谁啊", "age": 26, "man": "dyy"}
+# res = sorted(a.items(), key=lambda i: i[0], reverse=False)
+# res = dict(res)
+# print(res)
+
+# a = 'cbeEBywevbueuyebvbievubreabrgarnbebohoreherhhu'
+# from collections import Counter
+# res = dict(Counter(a))
+# print(res)
+
+# a = "not 404.3 found 张三 99 李四"
+# import re
+# list = a.split(" ")
+# res = re.findall('[\d+[\.\d+]*|[a-zA-Z]+', a)
+# for i in res:
+#     if i in list:
+#         list.remove(i)
+# result = " ".join(list)
+# print(result)
+
+# a = 5 / 2
+# b = 5 % 2
+# c = 5 // 2
+# print(a, b, c)
+
+# import os
+# import pychart
+# import matplotlib
+
+
+
+
+
+# a = [[2, 4], [5, 9], [1, 3]]
+# b = [i for i in range(2)]
+# print(b)
+#
+# c = [j for i in a for j in i]
+# print(c)
+
+# a = "张明 98分"
+# import re
+# b = re.sub(r"\d+", "100", a)
+# print(b)
+#
+# class Singleton(object):
+#     __instance = None
+#     def __new__(cls, age, name):
+#         if not cls.__instance:
+#             cls.__instance = object.__new__(cls)
+#         return cls.__instance
+#
+# a = 1.562655
+# print("%.04f"%a)
+# print(round(float(a), 3))
+#
+# c = 126
+# a = 6625151
+# b = 6625151
+# print(id(a), id(b))
+
+# a = (1, 6, 9, 5)
+# # print(id(a))
+# # del a
+# # b = (5, 9, 7, 5)
+# # print(id(b))
+# # c = (1, 6, 9, 5)
+# # print(id(c))
+
+#  导入线程队列
+# import queue
+#
+# q = queue.Queue(maxsize=10)
+# q.put(5)
+# q.put(8)
+# q.put(11)
+#
+# print(q.get())
+# print(q.get())
+# print(q.get())
+# print(q.get(block=False))
+
+
+a = 50
+b = bin(int(a))
+print(b)
