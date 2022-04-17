@@ -36,5 +36,3 @@ class Solution:
         res = __is_sorted(candidate_list)
 
         return res
-
-
