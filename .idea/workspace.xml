@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.17">
-      <change afterPath="$PROJECT_DIR$/235.二叉搜索树的最近公共祖先.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.18">
+      <change afterPath="$PROJECT_DIR$/701. 二叉搜索树中的插入操作.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/236.二叉树的最近公共祖先.py" beforeDir="false" afterPath="$PROJECT_DIR$/236.二叉树的最近公共祖先.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1649308784702" duration="152000" />
       <workItem from="1649602962310" duration="3843000" />
       <workItem from="1650160054124" duration="10992000" />
-      <workItem from="1650246113953" duration="3124000" />
+      <workItem from="1650246113953" duration="4951000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650172568509</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="4.18">
+      <created>1650249681821</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650249681821</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,17 +306,18 @@
     <MESSAGE value="4.2" />
     <MESSAGE value="4.4" />
     <MESSAGE value="4.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.17" />
+    <MESSAGE value="4.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.18" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1650172567389">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1650249679362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650172567389" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650249679362" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1649308913105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,10 +346,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650172569946">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650249684274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650172569946" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650249684274" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
