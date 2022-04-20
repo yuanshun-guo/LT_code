@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.18">
-      <change afterPath="$PROJECT_DIR$/701. 二叉搜索树中的插入操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/108.将有序数组转换为二叉搜索树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/450.删除二叉搜索树中的节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/538.把二叉搜索树转换为累加树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/669.修剪二叉搜索树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/13把字典的key和value的值取出来，按照顺序存入到list中.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/9计算几个数的最大公约数.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/9计算几个数的最大公约数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/filter().py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/filter().py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../爬虫/appium" />
+    <property name="last_opened_file_path" value="G:/实习/面试过的公司/百度" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,7 +58,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.9计算几个数的最大公约数">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LT_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +81,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9计算几个数的最大公约数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LT_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_x" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_x/9计算几个数的最大公约数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9计算几个数的最大公约数" />
         <item itemvalue="Python.草稿" />
       </list>
     </recent_temporary>
@@ -117,7 +146,10 @@
       <workItem from="1649308784702" duration="152000" />
       <workItem from="1649602962310" duration="3843000" />
       <workItem from="1650160054124" duration="10992000" />
-      <workItem from="1650246113953" duration="4951000" />
+      <workItem from="1650246113953" duration="4992000" />
+      <workItem from="1650351327139" duration="3133000" />
+      <workItem from="1650382051841" duration="2239000" />
+      <workItem from="1650419997989" duration="7010000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -273,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650249681821</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="4.18">
+      <created>1650256434826</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650256434826</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,30 +353,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1650249679362">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1650256433368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650249679362" />
-    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1649308913105">
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1650256433368" />
+    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1650354468902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1649308913105" />
-    <state width="1244" height="180" key="GridCell.Tab.0.bottom" timestamp="1647857723651">
+    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650354468902" />
+    <state width="1188" height="180" key="GridCell.Tab.0.bottom" timestamp="1650359294390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1244" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647857723651" />
-    <state width="1244" height="180" key="GridCell.Tab.0.center" timestamp="1647857723651">
+    <state width="1188" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650359294390" />
+    <state width="1188" height="180" key="GridCell.Tab.0.center" timestamp="1650359294390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1244" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647857723651" />
-    <state width="1244" height="180" key="GridCell.Tab.0.left" timestamp="1647857723651">
+    <state width="1188" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650359294390" />
+    <state width="1188" height="180" key="GridCell.Tab.0.left" timestamp="1650359294390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1244" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647857723651" />
-    <state width="1244" height="180" key="GridCell.Tab.0.right" timestamp="1647857723651">
+    <state width="1188" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650359294390" />
+    <state width="1188" height="180" key="GridCell.Tab.0.right" timestamp="1650359294390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1244" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647857723651" />
+    <state width="1188" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650359294390" />
     <state x="307" y="55" key="SettingsEditor" timestamp="1646655003624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -346,18 +385,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650249684274">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1650256436932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650249684274" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650256436932" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1645439366362" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1650162373416">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1650351535214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1650162373416" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1650351535214" />
     <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1648915187176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -418,7 +457,7 @@
     <SUITE FILE_PATH="coverage/code$Offer58_II_.coverage" NAME="剑指Offer58-II.左旋转字符串 Coverage Results" MODIFIED="1630721899671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$14keyvalue.coverage" NAME="14交换字典中的key和value Coverage Results" MODIFIED="1621222622419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$11.coverage" NAME="11选择字符串中的两个字符 Coverage Results" MODIFIED="1625568285163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
-    <SUITE FILE_PATH="coverage/code$9.coverage" NAME="9回文数 Coverage Results" MODIFIED="1620059463450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$9.coverage" NAME="9计算几个数的最大公约数 Coverage Results" MODIFIED="1650352578189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$349_.coverage" NAME="349.两个数组的交集 Coverage Results" MODIFIED="1628908161140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1647857713721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$35.coverage" NAME="35搜索插入位置 Coverage Results" MODIFIED="1626753660614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
