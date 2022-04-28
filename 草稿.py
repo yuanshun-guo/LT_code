@@ -308,6 +308,16 @@
 # print(q.get(block=False))
 
 
-a = 50
-b = bin(int(a))
-print(b)
+# a = 50
+# b = bin(int(a))
+# print(b)
+
+if __name__ == '__main__':
+
+    a = [20, 30]
+    a1 = []
+    b = a
+    c = a[:]
+    a1.append(a[:])
+    print(f"a:{a}, id为{id(a)}, \n b:{b}, id为{id(b)}, \n c:{c}, id为{id(c)}, \n {a1}")
+
