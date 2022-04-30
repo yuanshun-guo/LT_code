@@ -32,7 +32,7 @@
 # dict = {2:1,5:3}
 # print(dict[0])
 # print(dict[5] + 1)
-#创建字段
+# 创建字段
 # d={'name':'cheng','age':20,'sex':'female'}
 # #创建空列表
 # a=[]
@@ -181,9 +181,6 @@
 # print(c)
 
 
-
-
-
 # a = [1, 2, 3, 4, 5]
 # def f(x):
 #     return x ** 2
@@ -255,9 +252,6 @@
 # import matplotlib
 
 
-
-
-
 # a = [[2, 4], [5, 9], [1, 3]]
 # b = [i for i in range(2)]
 # print(b)
@@ -311,13 +305,20 @@
 # a = 50
 # b = bin(int(a))
 # print(b)
+import sys
 
 if __name__ == '__main__':
-
-    a = [20, 30]
-    a1 = []
-    b = a
-    c = a[:]
-    a1.append(a[:])
-    print(f"a:{a}, id为{id(a)}, \n b:{b}, id为{id(b)}, \n c:{c}, id为{id(c)}, \n {a1}")
-
+    # a = [20, 30]
+    # a1 = []
+    # b = a
+    # c = a[:]
+    # a1.append(a[:])
+    # print(f"a:{a}, id为{id(a)}, \n b:{b}, id为{id(b)}, \n c:{c}, id为{id(c)}, \n {a1}")
+    a = "nishishui"
+    c = [2, 3, 4, 6, 8, 9, 4, 32, 1, 7]
+    c1 = ["a", "c", "w", "p"]
+    b = a.split("i")
+    d = ".".join(c1)
+    print(d)
+    e = sys.stdin.readline()
+    print(e)

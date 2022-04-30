@@ -17,6 +17,7 @@ from typing import List
 
 
 class Solution:
+    # 返回 1 ... n 中所有可能的 k 个数的组合
     def combine(self, n: int, k: int) -> List[List[int]]:
 
         result = []
@@ -26,7 +27,11 @@ class Solution:
             if len(path) == k:
                 result.append(path[:])
                 return
-
+            """
+            已经选择的元素个数：path.size();
+            还需要的元素个数为: k - path.size();
+            在集合n中至多要从该起始位置 : n - (k - path.size()) + 1，开始遍历
+            """
             for i in range(startIndex, n - (k - len(path)) + 2):  # python的左闭右开，所以是+2
                 path.append(i)  # 处理节点（都是 从1开始）
                 backtracking(n, k, i + 1)  # 递归：控制树的纵向遍历，注意下一层搜索要从i+1开始
