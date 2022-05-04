@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.29">
-      <change afterPath="$PROJECT_DIR$/回溯算法/组合/17.电话号码的字母组合.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.20">
+      <change afterPath="$PROJECT_DIR$/回溯算法/组合/39.组合总和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../基础/设计模式/python-design-patterns(ing)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/01白月黑羽项目之城市销售管理系统/bysms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,7 +149,9 @@
       <workItem from="1651112613191" duration="7627000" />
       <workItem from="1651196782790" duration="4648000" />
       <workItem from="1651241174909" duration="3388000" />
-      <workItem from="1651283796571" duration="4337000" />
+      <workItem from="1651283796571" duration="5059000" />
+      <workItem from="1651492674667" duration="221000" />
+      <workItem from="1651630119567" duration="4245000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -333,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651284268938</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="4.20">
+      <created>1651289364595</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651289364595</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,24 +376,24 @@
     <MESSAGE value="4.4" />
     <MESSAGE value="4.17" />
     <MESSAGE value="4.18" />
-    <MESSAGE value="4.20" />
     <MESSAGE value="4.28" />
     <MESSAGE value="4.29" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.29" />
+    <MESSAGE value="4.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1651284262602">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1651289362781">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651284262602" />
-    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1650632128154">
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651289362781" />
+    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651492819643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650632128154" />
+    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651492819643" />
     <state width="1280" height="191" key="GridCell.Tab.0.bottom" timestamp="1651247123869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,10 +418,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651284272935">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651289369342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651284272935" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651289369342" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
