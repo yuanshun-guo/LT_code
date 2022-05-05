@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="4.20">
-      <change afterPath="$PROJECT_DIR$/回溯算法/组合/39.组合总和.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.4">
+      <change afterPath="$PROJECT_DIR$/回溯算法/组合/40.组合总和 II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.控制台颜色" />
   </component>
   <component name="RunManager" selected="Python.草稿">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -151,7 +151,9 @@
       <workItem from="1651241174909" duration="3388000" />
       <workItem from="1651283796571" duration="5059000" />
       <workItem from="1651492674667" duration="221000" />
-      <workItem from="1651630119567" duration="4245000" />
+      <workItem from="1651630119567" duration="4970000" />
+      <workItem from="1651714401442" duration="901000" />
+      <workItem from="1651715717517" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651289364595</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="5.4">
+      <created>1651637984525</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651637984525</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,17 +388,18 @@
     <MESSAGE value="4.28" />
     <MESSAGE value="4.29" />
     <MESSAGE value="4.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.20" />
+    <MESSAGE value="5.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1651289362781">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1651718250254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651289362781" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651718250254" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651492819643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -410,18 +420,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1280" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
-    <state x="307" y="55" key="SettingsEditor" timestamp="1646655003624">
+    <state x="307" y="55" key="SettingsEditor" timestamp="1651715890604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646655003624" />
+    <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651715890604" />
     <state x="629" y="118" key="VCS.ChangeListViewerDialog" timestamp="1645606938629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651289369342">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651637988441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651289369342" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651637988441" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
