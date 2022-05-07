@@ -317,8 +317,8 @@ if __name__ == '__main__':
     a = "nishishui"
     c = [2, 3, 4, 6, 8, 9, 4, 32, 1, 7]
     c1 = ["a", "c", "w", "p"]
-    b = a.split("i")
+    # b = a.split("i")
     d = ".".join(c1)
     print(d)
-    e = sys.stdin.readline()
-    print(e)
+    # e = sys.stdin.readline()
+    # print(e)
