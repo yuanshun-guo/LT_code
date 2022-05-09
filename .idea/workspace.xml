@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.6">
-      <change afterPath="$PROJECT_DIR$/回溯算法/分割/93.复原IP地址.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯算法/集合/78.子集.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯算法/集合/90.子集II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python学习曲线/马python5.0/课程资料/阶段4-web开发/代码以及其他/4-vue/4-代码/bookmanager04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/meiduo_project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,6 +159,11 @@
       <workItem from="1651800534394" duration="5265000" />
       <workItem from="1651840071504" duration="25000" />
       <workItem from="1651886643598" duration="3062000" />
+      <workItem from="1651910715920" duration="791000" />
+      <workItem from="1651973780862" duration="1450000" />
+      <workItem from="1652000243518" duration="41000" />
+      <workItem from="1652065288360" duration="3573000" />
+      <workItem from="1652070862196" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -417,14 +422,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651974070426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
     <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1651889792794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651889792794" />
-    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651766272366">
+    <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651766272366" />
+    <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651910914911" />
     <state width="1280" height="191" key="GridCell.Tab.0.bottom" timestamp="1651247123869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -441,10 +450,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1280" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
-    <state x="307" y="55" key="SettingsEditor" timestamp="1651886820386">
+    <state x="307" y="55" key="SettingsEditor" timestamp="1651910879939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651886820386" />
+    <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
     <state x="629" y="118" key="VCS.ChangeListViewerDialog" timestamp="1645606938629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
