@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.9">
-      <change afterPath="$PROJECT_DIR$/回溯算法/其他/491.递增子序列.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.10">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +164,7 @@
       <workItem from="1652065288360" duration="3573000" />
       <workItem from="1652070862196" duration="752000" />
       <workItem from="1652072198898" duration="70000" />
-      <workItem from="1652147236423" duration="2721000" />
+      <workItem from="1652147236423" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -383,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652071603282</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="5.10">
+      <created>1652150155575</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1652150155575</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +431,8 @@
     <MESSAGE value="5.5" />
     <MESSAGE value="5.6" />
     <MESSAGE value="5.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.9" />
+    <MESSAGE value="5.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
@@ -435,10 +443,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652071593730">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652150152395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652071593730" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652150152395" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -467,10 +475,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652071607277">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652150176185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652071607277" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652150176185" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
