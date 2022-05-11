@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.10">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯算法/排列/46.全排列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯算法/排列/47.全排列II.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +165,9 @@
       <workItem from="1652065288360" duration="3573000" />
       <workItem from="1652070862196" duration="752000" />
       <workItem from="1652072198898" duration="70000" />
-      <workItem from="1652147236423" duration="3024000" />
+      <workItem from="1652147236423" duration="3733000" />
+      <workItem from="1652167731464" duration="46000" />
+      <workItem from="1652250379412" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -390,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652150155575</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="5.10">
+      <created>1652150339738</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1652150339738</updated>
+    </task>
+    <task id="LOCAL-00034" summary="5.10">
+      <created>1652150417016</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1652150417016</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +460,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652150331532">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652150416138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652150331532" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652150416138" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -475,10 +492,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652150341803">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652150418561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652150341803" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652150418561" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
