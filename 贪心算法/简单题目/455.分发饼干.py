@@ -6,7 +6,10 @@ from typing import List
 
 
 class Solution:
-    """小饼干喂给胃口小的"""
+    """
+    小饼干喂给胃口小的    （g是小孩，s是饼干）
+    往下就只能移动饼干s
+    """
 
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         g.sort()
@@ -19,14 +22,16 @@ class Solution:
 
 
 class Solution1:
-    """大饼干喂给胃口大的"""
+    """
+    大饼干喂给胃口大的,所以此时就从大饼干开始，往下就只能移动小孩g
+    """
 
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
         g.sort()
         s.sort()
         start, count = len(s) - 1, 0
         for index in range(len(g) - 1, -1, -1):
-            if start >= 0 and s[index] <= g[start]:
+            if start >= 0 and g[index] <= s[start]:
                 count += 1
                 start -= 1
         return count
