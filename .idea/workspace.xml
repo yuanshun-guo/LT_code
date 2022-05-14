@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.11">
-      <change afterPath="$PROJECT_DIR$/回溯算法/其他/332.重新安排行程.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.12">
+      <change afterPath="$PROJECT_DIR$/回溯算法/棋盘问题/37.解数独.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯算法/棋盘问题/51.N皇后.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/贪心算法/简单题目/455.分发饼干.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -168,7 +172,10 @@
       <workItem from="1652167731464" duration="46000" />
       <workItem from="1652250379412" duration="3432000" />
       <workItem from="1652272645105" duration="1165000" />
-      <workItem from="1652325668221" duration="3148000" />
+      <workItem from="1652325668221" duration="3375000" />
+      <workItem from="1652356092350" duration="602000" />
+      <workItem from="1652405930476" duration="3198000" />
+      <workItem from="1652492421756" duration="5074000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -422,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652253798649</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="5.12">
+      <created>1652330708405</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1652330708405</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,6 +456,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2022.2.4" />
     <MESSAGE value="2022.2.23" />
     <MESSAGE value="2022.2.24" />
@@ -465,7 +480,8 @@
     <MESSAGE value="5.9" />
     <MESSAGE value="5.10" />
     <MESSAGE value="5.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.11" />
+    <MESSAGE value="5.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
@@ -476,30 +492,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652253797423">
+    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652496148351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652253797423" />
+    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652496148351" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651910914911" />
-    <state width="1280" height="191" key="GridCell.Tab.0.bottom" timestamp="1651247123869">
+    <state width="1495" height="107" key="GridCell.Tab.0.bottom" timestamp="1652409564170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
-    <state width="1280" height="191" key="GridCell.Tab.0.center" timestamp="1651247123869">
+    <state width="1495" height="107" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652409564170" />
+    <state width="1495" height="107" key="GridCell.Tab.0.center" timestamp="1652409564170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
-    <state width="1280" height="191" key="GridCell.Tab.0.left" timestamp="1651247123869">
+    <state width="1495" height="107" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652409564170" />
+    <state width="1495" height="107" key="GridCell.Tab.0.left" timestamp="1652409564170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
-    <state width="1280" height="191" key="GridCell.Tab.0.right" timestamp="1651247123869">
+    <state width="1495" height="107" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652409564170" />
+    <state width="1495" height="107" key="GridCell.Tab.0.right" timestamp="1652409564170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1280" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651247123869" />
+    <state width="1495" height="107" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652409564170" />
     <state x="307" y="55" key="SettingsEditor" timestamp="1651910879939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -508,10 +524,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652253803041">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652330711321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652253803041" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652330711321" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -520,10 +536,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="599" height="438" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1651888110187" />
-    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1648915187176">
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1652496764262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1648915187176" />
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1652496764262" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code$53.coverage" NAME="53最大子序和 Coverage Results" MODIFIED="1621267547254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -582,7 +598,7 @@
     <SUITE FILE_PATH="coverage/code$11.coverage" NAME="11选择字符串中的两个字符 Coverage Results" MODIFIED="1625568285163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$9.coverage" NAME="9计算几个数的最大公约数 Coverage Results" MODIFIED="1650352578189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$349_.coverage" NAME="349.两个数组的交集 Coverage Results" MODIFIED="1628908161140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1651243814995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1652407854366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$35.coverage" NAME="35搜索插入位置 Coverage Results" MODIFIED="1626753660614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$Offer05_.coverage" NAME="剑指Offer05.替换空格 Coverage Results" MODIFIED="1629822519756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$101.coverage" NAME="101对称二叉树 Coverage Results" MODIFIED="1625369789402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

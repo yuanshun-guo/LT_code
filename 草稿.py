@@ -319,6 +319,8 @@ if __name__ == '__main__':
     c1 = ["a", "c", "w", "p"]
     # b = a.split("i")
     d = ".".join(c1)
-    print(d)
+    n = 5
+    board = [['.'] * n for _ in range(n)]
+    print(board)
     # e = sys.stdin.readline()
     # print(e)
