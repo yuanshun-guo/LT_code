@@ -4,103 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.15">
-      <change afterPath="$PROJECT_DIR$/哈希表/15.三数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/哈希表/18.四数之和.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串/151.翻转字符串里的单词.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串/344.反转字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串/剑指Offer05.替换空格.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组/27.移除元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/贪心算法/中等题目/贪心解决股票问题/122.买卖股票的最佳时机II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/贪心算法/有点难度/区间问题/55.跳跃游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表/142.环形链表II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表/19.删除链表的倒数第N个节点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表/206.反转链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/链表/面试题02.07.链表相交.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.16">
+      <change afterPath="$PROJECT_DIR$/贪心算法/有点难度/区间问题/45.跳跃游戏II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/贪心算法/简单题目/1005.K次取反后最大化的数组和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/1.两数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100.相同的树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/100.相同的树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101.对称二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/101.对称二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101对称二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/101对称二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/102.二叉树的层序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/102.二叉树的层序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/104.二叉树的最大深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/104.二叉树的最大深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1047.删除字符串中的所有相邻重复项.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/1047.删除字符串中的所有相邻重复项.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/104二叉树的最大深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/104二叉树的最大深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/105.从前序与中序遍历序列构造二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的修改与构造/105.从前序与中序遍历序列构造二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/106.从中序与后序遍历序列构造二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的修改与构造/106.从中序与后序遍历序列构造二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/107. 二叉树的层序遍历II.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/107. 二叉树的层序遍历II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/108.将有序数组转换为二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索数的修改与改造/108.将有序数组转换为二叉搜索树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/108将有序数组转换为二叉搜索树[].py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索数的修改与改造/108将有序数组转换为二叉搜索树[].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/110.平衡二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/110.平衡二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/110平衡二叉树[].py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/110平衡二叉树[].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/111.二叉树的最小深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/111.二叉树的最小深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/111二叉树的最小深度.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/111二叉树的最小深度.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/112.路径总和.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/112.路径总和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/112路径总和[].py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/112路径总和[].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/113.路径总和ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/113.路径总和ii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/116.填充每个节点的下一个右侧节点指针.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/116.填充每个节点的下一个右侧节点指针.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/117. 填充每个节点的下一个右侧节点指针 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/117. 填充每个节点的下一个右侧节点指针 II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/142.环形链表II.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/142.环形链表II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/144.二叉树的前序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/144.二叉树的前序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/145.二叉树的后序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/145.二叉树的后序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.三数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/15.三数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/150.逆波兰表达式求值.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/150.逆波兰表达式求值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/151.翻转字符串里的单词.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/151.翻转字符串里的单词.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18.四数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/18.四数之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.删除链表的倒数第N个节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/19.删除链表的倒数第N个节点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/199.二叉树的右视图.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/199.二叉树的右视图.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20.有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/20.有效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/202.快乐数.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/202.快乐数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/203.移除链表元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/203.移除链表元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/206.反转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/206.反转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/209.长度最小的子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/209.长度最小的子数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/20有效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/222.完全二叉树的节点个数.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/222.完全二叉树的节点个数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/225.用队列实现栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/225.用队列实现栈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/226.翻转二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的修改与构造/226.翻转二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/232.用栈实现队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/232.用栈实现队列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/235.二叉搜索树的最近公共祖先.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树公共祖先问题/235.二叉搜索树的最近公共祖先.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/236.二叉树的最近公共祖先.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树公共祖先问题/236.二叉树的最近公共祖先.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/239.滑动窗口最大值.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/239.滑动窗口最大值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/242.有效的字母异位词.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/242.有效的字母异位词.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/257.二叉树的所有路径.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/257.二叉树的所有路径.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26删除有序数组中的重复项.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/26删除有序数组中的重复项.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27.移除元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/27.移除元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/28.实现strStr().py" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/28.实现strStr().py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/344.反转字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/344.反转字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/347. 前K个高频元素.py" beforeDir="false" afterPath="$PROJECT_DIR$/栈与队列/347. 前K个高频元素.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/349.两个数组的交集.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/349.两个数组的交集.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/34在排序数组中查找元素的第一个和最后一个位置.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/34在排序数组中查找元素的第一个和最后一个位置.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/35.搜索插入位置.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/35.搜索插入位置.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/383.赎金信.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/383.赎金信.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.左叶子之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/404.左叶子之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/429.N叉树的层序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/429.N叉树的层序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/450.删除二叉搜索树中的节点.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索数的修改与改造/450.删除二叉搜索树中的节点.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/454.四数相加 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/454.四数相加 II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/459.重复的子字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/459.重复的子字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/501.二叉搜索树中的众数.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/求二叉树的属性/501.二叉搜索树中的众数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/513.找树左下角的值.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的属性/513.找树左下角的值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/515.在每个树行中找最大值.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/515.在每个树行中找最大值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/530.二叉搜索树的最小绝对差.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/求二叉树的属性/530.二叉搜索树的最小绝对差.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/538.把二叉搜索树转换为累加树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/求二叉树的属性/538.把二叉搜索树转换为累加树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/541.反转字符串II.py" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/541.反转字符串II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/59.螺旋矩阵II.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/59.螺旋矩阵II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/617.合并二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的修改与构造/617.合并二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/637.二叉树的层平均值.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/层序遍历/637.二叉树的层平均值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/654.最大二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的修改与构造/654.最大二叉树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/669.修剪二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索数的修改与改造/669.修剪二叉搜索树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/69x的平方根.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/69x的平方根.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/700.二叉搜索树中的搜索.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/求二叉树的属性/700.二叉搜索树中的搜索.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/701. 二叉搜索树中的插入操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索数的修改与改造/701. 二叉搜索树中的插入操作.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/704.二分查找.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/704.二分查找.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/707.设计链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/707.设计链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/94.二叉树的中序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/94.二叉树的中序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/94二叉树的中序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的遍历方式/94二叉树的中序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/977.有序数组的平方.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/977.有序数组的平方.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/98.验证二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/求二叉树的属性/98.验证二叉搜索树.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/剑指Offer05.替换空格.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/剑指Offer05.替换空格.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/剑指Offer58-II.左旋转字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/字符串/剑指Offer58-II.左旋转字符串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试题02.07.链表相交.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/面试题02.07.链表相交.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.控制台颜色" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -282,7 +189,9 @@
       <workItem from="1652499320057" duration="1181000" />
       <workItem from="1652581991777" duration="4267000" />
       <workItem from="1652618629414" duration="387000" />
-      <workItem from="1652663065455" duration="5558000" />
+      <workItem from="1652663065455" duration="5697000" />
+      <workItem from="1652687982081" duration="51000" />
+      <workItem from="1652752420866" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -564,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652589540591</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="5.16">
+      <created>1652668691873</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1652668691873</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2022.2.23" />
     <MESSAGE value="2022.2.24" />
     <MESSAGE value="2.24二叉树的性质" />
     <MESSAGE value="2.24" />
@@ -610,7 +525,8 @@
     <MESSAGE value="5.12" />
     <MESSAGE value="5.14" />
     <MESSAGE value="5.15" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.15" />
+    <MESSAGE value="5.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
@@ -621,10 +537,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="384" y="106" key="CommitChangelistDialog2" timestamp="1652589537886">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1652668688961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="384" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652589537886" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652668688961" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -645,26 +561,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1495" height="107" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652409564170" />
-    <state x="307" y="55" key="SettingsEditor" timestamp="1651910879939">
+    <state x="307" y="55" key="SettingsEditor" timestamp="1652688036231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="307" y="55" key="SettingsEditor/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652688036231" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
     <state x="629" y="118" key="VCS.ChangeListViewerDialog" timestamp="1645606938629">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652589546676">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652668695657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652589546676" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652668695657" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1645439366362" />
-    <state width="599" height="438" key="javadoc.popup" timestamp="1651888110187">
+    <state width="599" height="438" key="javadoc.popup" timestamp="1652756117081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="599" height="438" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1651888110187" />
+    <state width="599" height="438" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1652756117081" />
     <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1652496764262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
