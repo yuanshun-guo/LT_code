@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.16">
-      <change afterPath="$PROJECT_DIR$/贪心算法/有点难度/区间问题/45.跳跃游戏II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/贪心算法/简单题目/1005.K次取反后最大化的数组和.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.17">
+      <change afterPath="$PROJECT_DIR$/贪心算法/中等题目/两个维度权衡问题/135.分发糖果.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/贪心算法/中等题目/两个维度权衡问题/406.根据身高重建队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/贪心算法/有点难度/134.加油站.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/贪心算法/简单题目/860.柠檬水找零.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
       <recent name="G:\COME\Leetcode\code\二叉树\二叉搜索数的修改与改造" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.草稿">
+  <component name="RunManager" selected="Python.406.根据身高重建队列">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LT_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +83,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="406.根据身高重建队列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LT_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/贪心算法/中等题目/两个维度权衡问题" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/贪心算法/中等题目/两个维度权衡问题/406.根据身高重建队列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.406.根据身高重建队列" />
         <item itemvalue="Python.草稿" />
         <item itemvalue="Python.9计算几个数的最大公约数" />
       </list>
@@ -191,7 +216,9 @@
       <workItem from="1652618629414" duration="387000" />
       <workItem from="1652663065455" duration="5697000" />
       <workItem from="1652687982081" duration="51000" />
-      <workItem from="1652752420866" duration="3061000" />
+      <workItem from="1652752420866" duration="3234000" />
+      <workItem from="1652790113108" duration="1337000" />
+      <workItem from="1652836170804" duration="6224000" />
     </task>
     <task id="LOCAL-00001" summary="2022.2.4">
       <created>1641263709012</created>
@@ -480,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652668691873</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="5.16">
+      <created>1652756441416</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1652756441416</updated>
+    </task>
+    <task id="LOCAL-00043" summary="5.17">
+      <created>1652756474926</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1652756474926</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2022.2.24" />
     <MESSAGE value="2.24二叉树的性质" />
     <MESSAGE value="2.24" />
     <MESSAGE value="3.1" />
@@ -526,7 +566,8 @@
     <MESSAGE value="5.14" />
     <MESSAGE value="5.15" />
     <MESSAGE value="5.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.16" />
+    <MESSAGE value="5.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
@@ -537,10 +578,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1652756438596">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1652756473786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652756438596" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1652756473786" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1651910914911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -570,22 +611,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652756446506">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1652756477456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652756446506" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1652756477456" />
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1645439366362" />
-    <state width="599" height="438" key="javadoc.popup" timestamp="1652756117081">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1652842130162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="599" height="438" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1652756117081" />
-    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1652496764262">
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1652842130162" />
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1652842031906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1652496764262" />
+    <state x="473" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1652842031906" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code$53.coverage" NAME="53最大子序和 Coverage Results" MODIFIED="1621267547254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -620,6 +661,7 @@
     <SUITE FILE_PATH="coverage/code$14.coverage" NAME="14最长公共前缀 Coverage Results" MODIFIED="1620437728159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$7.coverage" NAME="7一次性的整合多个列表 Coverage Results" MODIFIED="1621991289341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$67.coverage" NAME="67二进制求和 Coverage Results" MODIFIED="1621764109892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$406_.coverage" NAME="406.根据身高重建队列 Coverage Results" MODIFIED="1652842272635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/贪心算法/中等题目/两个维度权衡问题" />
     <SUITE FILE_PATH="coverage/code$100__1_.coverage" NAME="100相同的树 (1) Coverage Results" MODIFIED="1624416454380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1626930055916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$21.coverage" NAME="21合并两个有序链表 Coverage Results" MODIFIED="1620616360688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
