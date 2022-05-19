@@ -315,12 +315,16 @@ if __name__ == '__main__':
     # a1.append(a[:])
     # print(f"a:{a}, id为{id(a)}, \n b:{b}, id为{id(b)}, \n c:{c}, id为{id(c)}, \n {a1}")
     a = "nishishui"
-    c = [2, 3, 4, 6, 8, 9, 4, 32, 1, 7]
-    c1 = ["a", "c", "w", "p"]
+    # c = [2, 3, 4, 6, 8, 9, 4, 32, 1, 7]
+    # c1 = ["a", "c", "w", "p"]
     # b = a.split("i")
-    d = ".".join(c1)
-    n = 5
-    board = [['.'] * n for _ in range(n)]
-    print(board)
+    # d = ".".join(c1)
+    # n = 5
+    # board = [['.'] * n for _ in range(n)]
+    # print(board)
     # e = sys.stdin.readline()
     # print(e)
+    hash = [0] * 26
+    for i in range(len(a)):
+        b = ord(a[i]) - ord('a')
+        print(b)
