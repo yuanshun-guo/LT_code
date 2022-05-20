@@ -314,7 +314,8 @@ if __name__ == '__main__':
     # c = a[:]
     # a1.append(a[:])
     # print(f"a:{a}, id为{id(a)}, \n b:{b}, id为{id(b)}, \n c:{c}, id为{id(c)}, \n {a1}")
-    a = "nishishui"
+    # a = "nishishui"
+    a = 1566
     # c = [2, 3, 4, 6, 8, 9, 4, 32, 1, 7]
     # c1 = ["a", "c", "w", "p"]
     # b = a.split("i")
@@ -324,7 +325,10 @@ if __name__ == '__main__':
     # print(board)
     # e = sys.stdin.readline()
     # print(e)
-    hash = [0] * 26
-    for i in range(len(a)):
-        b = ord(a[i]) - ord('a')
-        print(b)
+    # hash = [0] * 26
+    # for i in range(len(a)):
+    #     b = ord(a[i]) - ord('a')
+    #     print(b)
+    b = list(str(a))
+    b[1:] = "9" * 3
+    print(b)
