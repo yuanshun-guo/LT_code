@@ -9,5 +9,7 @@ class Solution(object):
             return len(list1[-1])
         else:
             return 0
+
+
 s = Solution()
 print(s.lengthOfLastWord("hello world"))

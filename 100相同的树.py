@@ -1,10 +1,14 @@
 # Definition for a binary tree node.
 from pythonds.trees import BinaryTree
+
+
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+
+
 # class Solution(object):
 #     def isSameTree(self, p, q):
 #         """
@@ -48,9 +52,9 @@ class Solution1(object):
         :type q: TreeNode
         :rtype: bool
         """
-        if not (p or q): # 都为空
+        if not (p or q):  # 都为空
             return True
-        elif not (p and q): #此时不可能存在1 or 1的情况了，因为前一步已指明
+        elif not (p and q):  # 此时不可能存在1 or 1的情况了，因为前一步已指明
             return False
         elif p.val != q.val:
             print(p.val)

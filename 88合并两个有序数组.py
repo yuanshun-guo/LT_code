@@ -12,7 +12,7 @@ class Solution1(object):
 
 
 class Solution2(object):
-    def merge(self, nums1:list, m, nums2:list, n):
+    def merge(self, nums1: list, m, nums2: list, n):
         '''
         双指针
         '''
@@ -20,7 +20,7 @@ class Solution2(object):
         i, j = 0, 0
         while i < m or j < n:
             print(i, j, nums3)
-            if i == m: #搜索完有效的长度
+            if i == m:  # 搜索完有效的长度
                 nums3.append(nums2[j])
                 j += 1
             elif j == n:
@@ -35,6 +35,7 @@ class Solution2(object):
         print(nums3)
         nums1[:] = nums3
         return nums1
+
 
 s = Solution2()
 print(s.merge([1], 1, [0], 0))

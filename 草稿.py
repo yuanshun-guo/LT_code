@@ -329,6 +329,32 @@ if __name__ == '__main__':
     # for i in range(len(a)):
     #     b = ord(a[i]) - ord('a')
     #     print(b)
-    b = list(str(a))
-    b[1:] = "9" * 3
-    print(b)
+    # b = list(str(a))
+    # b[1:] = "9" * 3
+    # print(b)
+
+
+def twosum(nums, target):
+    hashdict  = {}
+    for i, num in enumerate(nums):
+        hashdict[num] = i
+
+    for m, num in enumerate(nums):
+        m_n = hashdict.get(target - num)
+        if m_n and m_n != m:
+            return [m, m_n]
+
+    # for i in range(len(nums)):
+    #     if (target - i) in nums:
+    #         return [i, target-i]
+
+nums = [2,7,11,15]
+target = 9
+t = twosum(nums, target)
+print(t)
+
+
+
+
+
+

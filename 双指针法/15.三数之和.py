@@ -33,7 +33,7 @@ class Solution(object):
             while left < right:
                 total = nums[i] + nums[left] + nums[right]
 
-                #去重复逻辑如果放在这里，0，0，0 的情况，可能直接导致right <= left了，从而漏掉了0, 0, 0这种三元组
+                # 去重复逻辑如果放在这里，0，0，0 的情况，可能直接导致right <= left了，从而漏掉了0, 0, 0这种三元组
 
                 # 此时i是固定的
                 if total > 0:

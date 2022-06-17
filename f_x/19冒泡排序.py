@@ -7,5 +7,6 @@ def bubbleSort(list0):
                 pass
     return list0
 
+
 list0 = [5, 6, 2, 8, 4]
 print(bubbleSort(list0))

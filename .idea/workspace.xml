@@ -4,10 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="5.31">
-      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/01背包问题.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="6.1">
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/02背包问题理论（一维数组）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/1049.最后一块石头的重量II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/416.分割等和子集.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/基础题目/96.不同的二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/基础题目/96.不同的二叉搜索树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1002.查找常用字符.py" beforeDir="false" afterPath="$PROJECT_DIR$/1002.查找常用字符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100相同的树.py" beforeDir="false" afterPath="$PROJECT_DIR$/100相同的树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13罗马数字转整数.py" beforeDir="false" afterPath="$PROJECT_DIR$/13罗马数字转整数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14最长公共前缀.py" beforeDir="false" afterPath="$PROJECT_DIR$/14最长公共前缀.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/21合并两个有序链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/337组合总和IV（未完成）.py" beforeDir="false" afterPath="$PROJECT_DIR$/337组合总和IV（未完成）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38外观数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/38外观数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/58最后一个单词的长度.py" beforeDir="false" afterPath="$PROJECT_DIR$/58最后一个单词的长度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/66加一.py" beforeDir="false" afterPath="$PROJECT_DIR$/66加一.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/67二进制求和.py" beforeDir="false" afterPath="$PROJECT_DIR$/67二进制求和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/70爬楼梯.py" beforeDir="false" afterPath="$PROJECT_DIR$/70爬楼梯.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7整数反转.py" beforeDir="false" afterPath="$PROJECT_DIR$/7整数反转.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/83删除排序链表中的重复元素[].py" beforeDir="false" afterPath="$PROJECT_DIR$/83删除排序链表中的重复元素[].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/88合并两个有序数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/88合并两个有序数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9回文数.py" beforeDir="false" afterPath="$PROJECT_DIR$/9回文数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeNode_way1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TreeNode_way1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeNode_way2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TreeNode_way2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/14交换字典中的key和value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/16按输入的字符串以空格为分解存入列表中.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/16按输入的字符串以空格为分解存入列表中.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/17判断是否包含子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/17判断是否包含子串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/19冒泡排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/19冒泡排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/1遍历文件夹.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/1遍历文件夹.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/2创建文件夹.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/2创建文件夹.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/3列表对应元素相减.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/3列表对应元素相减.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/or_and.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/or_and.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/reduce()+lanbda.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/reduce()+lanbda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_x/队列和双端队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_x/队列和双端队列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/背包问题/01背包问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/背包问题/01背包问题理论（二维数组）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针法/15.三数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/15.三数之和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双指针法/344.反转字符串.py" beforeDir="false" afterPath="$PROJECT_DIR$/双指针法/344.反转字符串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/哈希表/1.两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/哈希表/1.两数之和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +88,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +102,7 @@
       <recent name="G:\COME\Leetcode\code\二叉树\二叉搜索数的修改与改造" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.509.斐波那契数">
+  <component name="RunManager" selected="Python.草稿">
     <configuration name="草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LT_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,8 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.509.斐波那契数" />
         <item itemvalue="Python.草稿" />
+        <item itemvalue="Python.509.斐波那契数" />
         <item itemvalue="Python.406.根据身高重建队列" />
         <item itemvalue="Python.9计算几个数的最大公约数" />
       </list>
@@ -251,14 +285,14 @@
       <workItem from="1653871576824" duration="10201000" />
       <workItem from="1653895077650" duration="738000" />
       <workItem from="1653963472930" duration="5609000" />
-      <workItem from="1654044025474" duration="7576000" />
-    </task>
-    <task id="LOCAL-00002" summary="2022.2.4">
-      <created>1641267466696</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1641267466696</updated>
+      <workItem from="1654044025474" duration="7647000" />
+      <workItem from="1654079722173" duration="3847000" />
+      <workItem from="1654239528895" duration="621000" />
+      <workItem from="1654395276392" duration="10127000" />
+      <workItem from="1654489253522" duration="2710000" />
+      <workItem from="1654755806713" duration="2427000" />
+      <workItem from="1654828261566" duration="594000" />
+      <workItem from="1655433504625" duration="7520000" />
     </task>
     <task id="LOCAL-00003" summary="2022.2.24">
       <created>1645681719615</created>
@@ -596,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653979762655</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="6.1">
+      <created>1654059724302</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1654059724302</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +658,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="4.2" />
     <MESSAGE value="4.4" />
     <MESSAGE value="4.17" />
     <MESSAGE value="4.18" />
@@ -642,63 +682,57 @@
     <MESSAGE value="5.29" />
     <MESSAGE value="5.30" />
     <MESSAGE value="5.31" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.31" />
+    <MESSAGE value="6.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="73" key="#Inspections" timestamp="1646581223932">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="283" y="73" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1646581223932" />
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651974070426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1653979760205">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1654059722313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1653979760205" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1654059722313" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1653895251247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1653277422664" />
     <state x="536" y="161" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653895251247" />
-    <state width="1495" height="164" key="GridCell.Tab.0.bottom" timestamp="1653810849479">
+    <state width="1495" height="164" key="GridCell.Tab.0.bottom" timestamp="1654791264605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1495" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1654791264605" />
     <state width="1495" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652949892468" />
     <state width="1495" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653810849479" />
-    <state width="1495" height="164" key="GridCell.Tab.0.center" timestamp="1653810849479">
+    <state width="1495" height="164" key="GridCell.Tab.0.center" timestamp="1654791264605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1495" height="164" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1654791264605" />
     <state width="1495" height="180" key="GridCell.Tab.0.center/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652949892468" />
     <state width="1495" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1653810849479" />
-    <state width="1495" height="164" key="GridCell.Tab.0.left" timestamp="1653810849479">
+    <state width="1495" height="164" key="GridCell.Tab.0.left" timestamp="1654791264604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1495" height="164" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1654791264604" />
     <state width="1495" height="180" key="GridCell.Tab.0.left/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652949892468" />
     <state width="1495" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1653810849479" />
-    <state width="1495" height="164" key="GridCell.Tab.0.right" timestamp="1653810849479">
+    <state width="1495" height="164" key="GridCell.Tab.0.right" timestamp="1654791264605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1495" height="164" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1654791264605" />
     <state width="1495" height="180" key="GridCell.Tab.0.right/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652949892468" />
     <state width="1495" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1653810849479" />
-    <state x="307" y="55" key="SettingsEditor" timestamp="1652688036231">
+    <state x="307" y="55" key="SettingsEditor" timestamp="1655437756309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="307" y="55" key="SettingsEditor/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655437756309" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652688036231" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
-    <state x="629" y="118" key="VCS.ChangeListViewerDialog" timestamp="1645606938629">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1654059755581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="629" y="118" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1645606938629" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1653979765725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1653979765725" />
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645439366362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="554" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1645439366362" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654059755581" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1653878233215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -767,7 +801,7 @@
     <SUITE FILE_PATH="coverage/code$11.coverage" NAME="11选择字符串中的两个字符 Coverage Results" MODIFIED="1625568285163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$9.coverage" NAME="9计算几个数的最大公约数 Coverage Results" MODIFIED="1650352578189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f_x" />
     <SUITE FILE_PATH="coverage/code$349_.coverage" NAME="349.两个数组的交集 Coverage Results" MODIFIED="1628908161140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1653014990836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="草稿 Coverage Results" MODIFIED="1654760769939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$35.coverage" NAME="35搜索插入位置 Coverage Results" MODIFIED="1626753660614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$Offer05_.coverage" NAME="剑指Offer05.替换空格 Coverage Results" MODIFIED="1629822519756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$101.coverage" NAME="101对称二叉树 Coverage Results" MODIFIED="1625369789402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

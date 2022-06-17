@@ -8,7 +8,7 @@ class Solution(object):
         4.返回有次数的字母，可重复
         '''
 
-        hashwords = [0] * 26  #  用来统计所有字符串里字符出现的最小频率
+        hashwords = [0] * 26  # 用来统计所有字符串里字符出现的最小频率
 
         # 将输入的第一个字符串给hash初始化
         for i in range(len(words[0])):
@@ -27,8 +27,7 @@ class Solution(object):
         # 将hash统计的字符次数，转成输出形式
         res = []
         for i in range(len(hashwords)):
-            while hashwords[i] > 0:   # 注意这里是while，多个重复的字符
-                res.append(chr(i + ord('a')))  #ord→chr （ASCII到字符串）
+            while hashwords[i] > 0:  # 注意这里是while，多个重复的字符
+                res.append(chr(i + ord('a')))  # ord→chr （ASCII到字符串）
                 hashwords[i] -= 1
         return res
-

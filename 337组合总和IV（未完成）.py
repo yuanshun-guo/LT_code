@@ -1,7 +1,7 @@
-#from typing import nums
+# from typing import nums
 
 class Solution:
-    def combinationSunm4(self,nums,target:int) ->int:
+    def combinationSunm4(self, nums, target: int) -> int:
         length = len(nums)
         for i in range(length):
             if target < nums[i]:
@@ -11,12 +11,9 @@ class Solution:
                     return target // nums[i]
                 else:
                     return 8
-nums = [2,6,9,8,36,7,5,85,96,35]
+
+
+nums = [2, 6, 9, 8, 36, 7, 5, 85, 96, 35]
 target = 1
 s = Solution()
-print(s.combinationSunm4(nums,target))
-
-
-
-
-
+print(s.combinationSunm4(nums, target))

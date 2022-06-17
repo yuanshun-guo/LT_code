@@ -14,6 +14,7 @@ class Solution(object):
         else:
             return self.climbStairs(n - 1) + self.climbStairs(n - 2)
 
+
 class Solution1(object):
     def climbStairs(self, n):
         '''
@@ -26,6 +27,7 @@ class Solution1(object):
         for i in range(2, n + 1):
             dp[i] = dp[i - 1] + dp[i - 2]
         return dp[-1]
+
 
 s = Solution1()
 print(s.climbStairs(3))
