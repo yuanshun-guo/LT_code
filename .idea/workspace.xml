@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="6.19">
-      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/322.零钱兑换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/377.组合总和Ⅳ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/70.爬楼梯(完全背包解法).py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="6.21">
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/139.单词拆分.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/279.完全平方数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_note.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/背包问题/完全背包/518.零钱兑换II.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/背包问题/完全背包/518.零钱兑换II.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,14 +285,8 @@
       <workItem from="1655523413436" duration="4382000" />
       <workItem from="1655601683008" duration="5586000" />
       <workItem from="1655776257640" duration="2480000" />
-      <workItem from="1655783226903" duration="3158000" />
-    </task>
-    <task id="LOCAL-00006" summary="2.24">
-      <created>1645705838156</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1645705838156</updated>
+      <workItem from="1655783226903" duration="3234000" />
+      <workItem from="1655865053135" duration="8399000" />
     </task>
     <task id="LOCAL-00007" summary="3.1">
       <created>1646104977338</created>
@@ -632,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655607260078</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="6.21">
+      <created>1655787279552</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1655787279552</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="4.28" />
     <MESSAGE value="4.29" />
     <MESSAGE value="4.20" />
     <MESSAGE value="5.4" />
@@ -678,17 +676,18 @@
     <MESSAGE value="6.17" />
     <MESSAGE value="6.18" />
     <MESSAGE value="6.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.19" />
+    <MESSAGE value="6.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.21" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651974070426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1655607258024">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1655787275645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655607258024" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655787275645" />
     <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1654059722313" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1653895251247">
       <screen x="0" y="0" width="1536" height="824" />
@@ -725,10 +724,10 @@
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655437756309" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652688036231" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1655607262581">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1655787289006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655607262581" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655787289006" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654059755581" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1653878233215">
       <screen x="0" y="0" width="1536" height="824" />
