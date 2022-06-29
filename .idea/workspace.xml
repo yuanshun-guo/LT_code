@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="6.25">
-      <change afterPath="$PROJECT_DIR$/动态规划/股票问题/309.最佳买卖股票时机含冷冻期.py" afterDir="false" />
+    <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="6.26">
+      <change afterPath="$PROJECT_DIR$/动态规划/子序列问题/300.最长递增子序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/贪心算法/中等题目/贪心解决股票问题/714.买卖股票的最佳时机含手续费.py" beforeDir="false" afterPath="$PROJECT_DIR$/贪心算法/中等题目/贪心解决股票问题/714.买卖股票的最佳时机含手续费.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,14 +290,8 @@
       <workItem from="1656126283964" duration="7409000" />
       <workItem from="1656218380522" duration="3926000" />
       <workItem from="1656293690632" duration="8328000" />
-      <workItem from="1656389921505" duration="3443000" />
-    </task>
-    <task id="LOCAL-00011" summary="3.5">
-      <created>1646408831074</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1646408831074</updated>
+      <workItem from="1656389921505" duration="3661000" />
+      <workItem from="1656477785039" duration="2410000" />
     </task>
     <task id="LOCAL-00012" summary="3.5">
       <created>1646470267568</created>
@@ -636,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656304707481</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="6.26">
+      <created>1656396947533</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1656396947534</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +657,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5.5" />
     <MESSAGE value="5.6" />
     <MESSAGE value="5.9" />
     <MESSAGE value="5.10" />
@@ -682,17 +681,18 @@
     <MESSAGE value="6.22" />
     <MESSAGE value="6.23" />
     <MESSAGE value="6.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.25" />
+    <MESSAGE value="6.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.26" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651974070426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1656304706069">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1656396945808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656304706069" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656396945808" />
     <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1654059722313" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1653895251247">
       <screen x="0" y="0" width="1536" height="824" />
@@ -729,10 +729,10 @@
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655437756309" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652688036231" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1656304709164">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1656396949901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656304709164" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656396949901" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654059755581" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1653878233215">
       <screen x="0" y="0" width="1536" height="824" />
