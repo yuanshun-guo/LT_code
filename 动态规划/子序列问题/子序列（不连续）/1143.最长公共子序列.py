@@ -9,9 +9,14 @@ class Solution:
         dp数组如何初始化:test1[0, i-1]和空串的最长公共子序列自然是0，所以dp[i][0] = 0; 同理dp[0][j]也是0。
         确定遍历顺序
         举例推导dp数组
+
+
+
+        借用1143的答案
         """
         len1, len2 = len(text1) + 1, len(text2) + 1
-        dp = [[0 for _ in range(len1)] for _ in range(len2)]
+        # dp = [[0 for _ in range(len1)] for _ in range(len2)]
+        dp = [[0] * (len1) for _ in range(len2)]
         for i in range(1, len2):
             for j in range(1, len1):
                 if text1[j - 1] == text2[i - 1]:

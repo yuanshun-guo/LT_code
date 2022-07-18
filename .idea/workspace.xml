@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7098c51-9b8b-493f-ac68-1a42390cc19b" name="Changes" comment="7.17">
-      <change afterPath="$PROJECT_DIR$/动态规划/子序列问题/1143.最长公共子序列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（不连续）/1035.不相交的线.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（连续）/53.最大子数组和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/子序列问题/编辑距离/392.判断子序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/718.最长重复子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/718.最长重复子数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/1143.最长公共子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（不连续）/1143.最长公共子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/300.最长递增子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（不连续）/300.最长递增子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/674.最长连续递增序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（连续）/674.最长连续递增序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/718.最长重复子数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/子序列（连续）/718.最长重复子数组.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/动态规划/股票问题" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/动态规划/子序列问题/子序列（连续）" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,16 +62,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\COME\Leetcode\code\动态规划\股票问题" />
-      <recent name="G:\COME\Leetcode\code\双指针法" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\COME\Leetcode\code\动态规划\子序列问题\子序列（连续）" />
+      <recent name="G:\COME\Leetcode\code\动态规划\子序列问题\子序列（不连续）" />
       <recent name="G:\COME\Leetcode\code\动态规划\背包问题\01背包" />
       <recent name="G:\COME\Leetcode\code\二叉树\二叉树的属性" />
       <recent name="G:\COME\Leetcode\code\二叉树\二叉树的修改与构造" />
-      <recent name="G:\COME\Leetcode\code\二叉树\二叉树的遍历方式\层序遍历" />
-      <recent name="G:\COME\Leetcode\code\二叉树\二叉树的遍历方式" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\COME\Leetcode\code\动态规划\子序列问题\子序列（连续）" />
+      <recent name="G:\COME\Leetcode\code\动态规划\股票问题" />
+      <recent name="G:\COME\Leetcode\code\双指针法" />
     </key>
   </component>
   <component name="RunManager" selected="Python.9计算几个数的最大公约数">
@@ -295,14 +301,8 @@
       <workItem from="1656477785039" duration="3025000" />
       <workItem from="1657806616616" duration="1207000" />
       <workItem from="1657853214159" duration="47000" />
-      <workItem from="1658060826414" duration="8148000" />
-    </task>
-    <task id="LOCAL-00014" summary="3.10">
-      <created>1646896441478</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1646896441478</updated>
+      <workItem from="1658060826414" duration="8301000" />
+      <workItem from="1658146470871" duration="4925000" />
     </task>
     <task id="LOCAL-00015" summary="3.10">
       <created>1646898800513</created>
@@ -640,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658066633326</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="7.17">
+      <created>1658071257310</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1658071257310</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,11 +700,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1651974070426" />
-    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1658066630800">
+    <state x="266" y="106" key="CommitChangelistDialog2" timestamp="1658071256112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656481548298" />
-    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1658066630800" />
+    <state x="266" y="106" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1658071256112" />
     <state x="536" y="161" key="FileChooserDialogImpl" timestamp="1653895251247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -733,11 +740,11 @@
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1655437756309" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824/1920.111.1440.860@0.0.1536.824" timestamp="1652688036231" />
     <state x="307" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651910879939" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1658066638396">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1658071258955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-173.2560.1400@0.0.1536.824" timestamp="1656481552263" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1658066638396" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1658071258955" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1653878233215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
