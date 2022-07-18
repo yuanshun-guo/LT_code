@@ -10,9 +10,6 @@ class Solution:
         确定遍历顺序
         举例推导dp数组
 
-
-
-        借用1143的答案
         """
         len1, len2 = len(text1) + 1, len(text2) + 1
         # dp = [[0 for _ in range(len1)] for _ in range(len2)]
